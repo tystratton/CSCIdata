@@ -1,0 +1,10 @@
+http://info.cern.ch/hypertext/WWW/TheProject.html firstweb.txt
+http://info.cern.ch/hypertext/DataSources/Top.html top.txt
+http://info.cern.ch/hypertext/WWW/People.html people.txt
+http://info.cern.ch/hypertext/WWW/Help.html help.txt
+http://info.cern.ch/hypertext/WWW/Status.html browsers.txt
+http://info.cern.ch/hypertext/WWW/Technical.html tech.txt
+http://info.cern.ch/hypertext/WWW/Protocols/RelevantProtocols.html protocols.txt
+http://info.cern.ch/hypertext/WWW/Project/Coding.html coding.txt
+http://info.cern.ch/hypertext/WWW/Project/Language.html language.txt
+http://info.cern.ch/hypertext/WWW/History.html history.txt

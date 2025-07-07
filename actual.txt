@@ -1,0 +1,1661 @@
+
+What would you like to do? 
+1. Navigate to a new URL
+4. Exit Browser
+
+<HEADER>
+<TITLE>The World Wide Web project</TITLE>
+<NEXTID N="55">
+</HEADER>
+<BODY>
+<H1>World Wide Web</H1>The WorldWideWeb (W3) is a wide-area<A
+NAME=0 HREF="WhatIs.html">
+hypermedia</A> information retrieval
+initiative aiming to give universal
+access to a large universe of documents.<P>
+Everything there is online about
+W3 is linked directly or indirectly
+to this document, including an <A
+NAME=24 HREF="Summary.html">executive
+summary</A> of the project, <A
+NAME=29 HREF="Administration/Mailing/Overview.html">Mailing lists</A>
+, <A
+NAME=30 HREF="Policy.html">Policy</A> , November's  <A
+NAME=34 HREF="News/9211.html">W3  news</A> ,
+<A
+NAME=41 HREF="FAQ/List.html">Frequently Asked Questions</A> .
+<DL>
+<DT><A
+NAME=44 HREF="../DataSources/Top.html">What's out there?</A>
+<DD> Pointers to the
+world's online information,<A
+NAME=45 HREF="../DataSources/bySubject/Overview.html"> subjects</A>
+, <A
+NAME=z54 HREF="../DataSources/WWW/Servers.html">W3 servers</A>, etc.
+<DT><A
+NAME=46 HREF="Help.html">Help</A>
+<DD> on the browser you are using
+<DT><A
+NAME=13 HREF="Status.html">Software Products</A>
+<DD> A list of W3 project
+components and their current state.
+(e.g. <A
+NAME=27 HREF="LineMode/Browser.html">Line Mode</A> ,X11 <A
+NAME=35 HREF="Status.html#35">Viola</A> ,  <A
+NAME=26 HREF="NeXT/WorldWideWeb.html">NeXTStep</A>
+, <A
+NAME=25 HREF="Daemon/Overview.html">Servers</A> , <A
+NAME=51 HREF="Tools/Overview.html">Tools</A> ,<A
+NAME=53 HREF="MailRobot/Overview.html"> Mail robot</A> ,<A
+NAME=52 HREF="Status.html#57">
+Library</A> )
+<DT><A
+NAME=47 HREF="Technical.html">Technical</A>
+<DD> Details of protocols, formats,
+program internals etc
+<DT><A
+NAME=40 HREF="Bibliography.html">Bibliography</A>
+<DD> Paper documentation
+on  W3 and references.
+<DT><A
+NAME=14 HREF="People.html">People</A>
+<DD> A list of some people involved
+in the project.
+<DT><A
+NAME=15 HREF="History.html">History</A>
+<DD> A summary of the history
+of the project.
+<DT><A
+NAME=37 HREF="Helping.html">How can I help</A> ?
+<DD> If you would like
+to support the web..
+<DT><A
+NAME=48 HREF="../README.html">Getting code</A>
+<DD> Getting the code by<A
+NAME=49 HREF="LineMode/Defaults/Distribution.html">
+anonymous FTP</A> , etc.</A>
+</DL>
+</BODY>
+
+What would you like to do? 
+1. Navigate to a new URL
+4. Exit Browser
+
+<title>Overview of the Web</title>
+<h1>General Overview</h1>
+There is no "top" to the World-Wide Web.
+You can look at it from many points of view.
+If you have no other bias, here are some ways of looking for
+information.
+<DL>
+<DT><a href=bySubject/Overview.html>by Subject</a>
+<DD>A classification by subject of interest. Incomplete
+but easiest to use.
+<DT><a href=ByAccess.html>by Type</a>
+<DD>Looking by type of service (access protocol, etc)
+may allow to find things if you know what you are looking for.
+</DL>
+If you have to use a "top" node, we recommend either this node
+or the subject list.
+See also: <a href=../WWW/TheProject.html>About the W3 project</a>.
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+4. Exit Browser
+
+<HEADER>
+<TITLE>The World Wide Web project</TITLE>
+<NEXTID N="55">
+</HEADER>
+<BODY>
+<H1>World Wide Web</H1>The WorldWideWeb (W3) is a wide-area<A
+NAME=0 HREF="WhatIs.html">
+hypermedia</A> information retrieval
+initiative aiming to give universal
+access to a large universe of documents.<P>
+Everything there is online about
+W3 is linked directly or indirectly
+to this document, including an <A
+NAME=24 HREF="Summary.html">executive
+summary</A> of the project, <A
+NAME=29 HREF="Administration/Mailing/Overview.html">Mailing lists</A>
+, <A
+NAME=30 HREF="Policy.html">Policy</A> , November's  <A
+NAME=34 HREF="News/9211.html">W3  news</A> ,
+<A
+NAME=41 HREF="FAQ/List.html">Frequently Asked Questions</A> .
+<DL>
+<DT><A
+NAME=44 HREF="../DataSources/Top.html">What's out there?</A>
+<DD> Pointers to the
+world's online information,<A
+NAME=45 HREF="../DataSources/bySubject/Overview.html"> subjects</A>
+, <A
+NAME=z54 HREF="../DataSources/WWW/Servers.html">W3 servers</A>, etc.
+<DT><A
+NAME=46 HREF="Help.html">Help</A>
+<DD> on the browser you are using
+<DT><A
+NAME=13 HREF="Status.html">Software Products</A>
+<DD> A list of W3 project
+components and their current state.
+(e.g. <A
+NAME=27 HREF="LineMode/Browser.html">Line Mode</A> ,X11 <A
+NAME=35 HREF="Status.html#35">Viola</A> ,  <A
+NAME=26 HREF="NeXT/WorldWideWeb.html">NeXTStep</A>
+, <A
+NAME=25 HREF="Daemon/Overview.html">Servers</A> , <A
+NAME=51 HREF="Tools/Overview.html">Tools</A> ,<A
+NAME=53 HREF="MailRobot/Overview.html"> Mail robot</A> ,<A
+NAME=52 HREF="Status.html#57">
+Library</A> )
+<DT><A
+NAME=47 HREF="Technical.html">Technical</A>
+<DD> Details of protocols, formats,
+program internals etc
+<DT><A
+NAME=40 HREF="Bibliography.html">Bibliography</A>
+<DD> Paper documentation
+on  W3 and references.
+<DT><A
+NAME=14 HREF="People.html">People</A>
+<DD> A list of some people involved
+in the project.
+<DT><A
+NAME=15 HREF="History.html">History</A>
+<DD> A summary of the history
+of the project.
+<DT><A
+NAME=37 HREF="Helping.html">How can I help</A> ?
+<DD> If you would like
+to support the web..
+<DT><A
+NAME=48 HREF="../README.html">Getting code</A>
+<DD> Getting the code by<A
+NAME=49 HREF="LineMode/Defaults/Distribution.html">
+anonymous FTP</A> , etc.</A>
+</DL>
+</BODY>
+
+What would you like to do? 
+1. Navigate to a new URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<title>Overview of the Web</title>
+<h1>General Overview</h1>
+There is no "top" to the World-Wide Web.
+You can look at it from many points of view.
+If you have no other bias, here are some ways of looking for
+information.
+<DL>
+<DT><a href=bySubject/Overview.html>by Subject</a>
+<DD>A classification by subject of interest. Incomplete
+but easiest to use.
+<DT><a href=ByAccess.html>by Type</a>
+<DD>Looking by type of service (access protocol, etc)
+may allow to find things if you know what you are looking for.
+</DL>
+If you have to use a "top" node, we recommend either this node
+or the subject list.
+See also: <a href=../WWW/TheProject.html>About the W3 project</a>.
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+4. Exit Browser
+
+<TITLE>People involved in the WorldWideWeb project</TITLE>
+<NEXTID 26>
+<H1>WWW people</H1>This is a list of some of those who have contributed to the <A NAME=7 HREF=TheProject.html>WWW project</A>
+, and whose work is linked into this web. Unless otherwise stated
+they are at CERN, Phone +41(22)767 plus the extension given below
+or look them up in the <A NAME=14 HREF=http://crnvmc.cern.ch./WHO>phone book</A> . Address: 1211 Geneva 23, Switzerland.
+See also: <A NAME=12 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>Wizards at SLAC</A> .
+<H2>Eelco van Asperen</H2>Ported the line-mode browser the PC under PC-NFS; developed a curses
+version. Email: evas@cs.few.eur.nl.
+<H2><A NAME=11>Carl Barker</A></H2>Carl is at CERN for a six month period during his degree course at
+Brunel University, UK.  Carl will be working on the server side, possibly
+on client authentication. Tel: 8265.  Email: barker@cernnext.cern.ch
+<H2><A NAME=BernersLee>Tim Berners-Lee</A></H2>Currently in CN division. Before comming to CERN, Tim worked on, among
+other things, document production and text processing. He developped
+his first hypertext system, "Enquire", in 1980 for his own use (although
+unaware of the existence of the term HyperText). With a background
+in text processing, real-time software and communications, Tim decided
+that high energy physics needed a networked hypertext system and CERN
+was an ideal site for the development of wide-area hypertext ideas.
+Tim started the <A NAME=0 HREF=TheProject.html>WorldWideWeb</A> project at CERN in 1989. He wrote the<A NAME=2 HREF=NeXT/WorldWideWeb.html>
+application on the NeXT</A> along with most of the communications software.
+Phone: 3755, Email: timbl@info.cern.ch
+<H2><A NAME=Cailliau>Robert Cailliau</A></H2>Formerly in programming language design and compiler construction,
+Robert has been interested in document production since 1975, when
+he designed and implemented a widely used document markup and formatting
+system. He ran CERN's Office Computing Systems group from 87 to 89.
+He is a long-time user of Hypercard, which he used to such diverse
+ends as writing trip reports, games, bookkeeping software, and budget
+preparation forms. When he is not doing WWW's public relations, Robert
+is contributing browser software for the Macintosh platform, and analysing
+the needs of physics experiments for online data access. Phone: +41
+(22) 767 50 05, Email: cailliau@cernnext.cern.ch
+<H2>Dan Connolly</H2>An early follower of the project, Dan wrote a private X-Windows editor
+for his company, and encouraged the use of proper SGML and MIME in
+the future. He wrote a <A NAME=15 HREF=MarkUp/HTML.dtd>DTD for HTML</A> and an <A NAME=16 HREF=Tools/HTMLGeneration/fix-html.pl>HTML legalizer</A> for old
+files. Email: connolly@pixel.convex.com.
+<H2>Peter Dobberstein</H2>While at the DESY lab in Hamburg (DE),  Peter did the port of the
+line-mode browser onto MVS and, indirectly, VM/CMS. These were the
+most difficult of the ports to date. He also overcame many incidental
+problems in making a large amount of information in the <A NAME=6 HREF=http://crnvmc.cern.ch/FIND/DESY?>DESY database</A>
+available. 
+<H2><A NAME=9>"Erwise" team</A></H2>Kim Nyberg, Teemu Rantanen, Kati Suominen and Kari Syd{nmaanlakka
+('{' is 'a' with two dots above it.. we must get some character set
+description into HTML!)   (under the supervision of Ari Lemmke)  are
+"Erwise".  At Helsinki Technical University, they  are writing a Motif-based
+WWW browser (editor? we can hope...) for their undergraduate final
+year project. The team can be reached as erwise@cs.hut.fi and Ari
+as arl@cs.hut.fi.
+<H2>Alain Favre</H2>Alain is an undergraduate  working with ECP/PT on a browser for Windows
+on PCs. Phone: 8265, no email yet.  In CERN mostly in the afternoons.
+<H2>David Foster</H2>With wide experience in networking, and a current conviction information
+systems and PC/Windows being the way of the future, Dave is having
+a go at a MS-Windows browser/editor. Dave also has a strong interest
+in server technology and intelligent information retrieval algorithms.
+<H2><A NAME=Groff>Jean-Francois Groff</A></H2>Provided some useful input in the "design issues". During his stay
+at CERN as "cooperant", J-F joined the project in September 1991.
+He wrote the<A NAME=5 HREF=VMSHelp/Overview.html> gateway to the VMS Help system</A> , worked on the new modular
+browser architecure, and helped support and present WWW at all levels.
+He is now porting the communications code to DECnet in order to set
+up servers for physics experiments.  JF now works for NeXT Europe
+but continues his interest in the web...(<A NAME=23 HREF=People/Groff.html> Contact</A> )
+<H2>Tony Johnson</H2>Tel: (415) 926 2278, TONYJ@scs.slac.stanford.edu.<P>
+Designer of <A NAME=21 HREF=Status.html#60>MidasWWW</A> .  Boston University, collaborating with SLAC,
+SSC, etc. A SLAC server expert and a <A NAME=22 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizard</A> .
+<H2>Paul Kunz</H2>Paul took the W3 word across to SLAC, installed the clients and inspired
+the setting up of servers by the <A NAME=19 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> .  Paul spreads enthusiasm
+for all sort of good ideas such as OO programming, NeXTs, etc...
+<H2>Willem van Leeuwen</H2>at NIKHEF, WIllem put up many <A NAME=10 HREF=http://nic.nikhef.nl./user/a03/www/default/NikhefGuide.html>servers</A> and has provided much useful
+feedback about the w3 browser code.
+<H2><A NAME=Pellow>Nicola Pellow</A></H2>With the project from November 1990 to August 1991, and October 1992
+to ??.  A graduate of Leicester Polytechnic, UK, Nicola wrote the
+original <A NAME=1 HREF=LineMode/Browser.html>line mode browser</A> .  (<A NAME=20 HREF=People/Pellow.html> More </A> ) Nicola is now (Oct 92) working
+on the <A NAME=24 HREF=Macintosh/Status.html>Mac browser</A> .
+<H2><A NAME=Pollermann>Bernd Pollermann</A></H2>Bernd is responsible for the "XFIND" indexes on the CERNVM node, for
+their operation and, largely, their contents. He is also the editor
+of the Computer Newsletter (CNL), and has experience in managing large
+databases of information. Bernd is in the AS group of CN division.
+He has contributed <A NAME=3 HREF=Status.html#17>code</A> for the FIND server which allows hypertext
+access to this large store of information. Phone: 2407, Office: 513-1-16,
+Email: bernd@cernvm.cern.ch
+<H2><A NAME=17>A</A> r<A NAME=17> thur Secret</A></H2>A student at CERN during August and September 1992, Arthur wrote the
+first <A NAME=18 HREF=Daemon/Oracle/Overview.html>W3-Oracle gateway</A> .
+<H2>Jonthan Streets</H2>Online Support group, FNAL. Jonathan put up a VMS server using DCL
+and later C. He helped debug the Mac browser.
+<H2>Pei Wei</H2>Pei is the author of " Viola", a hypertext browser, and the ViolaWWW
+variant which is a WWW browser. He was at the University of California
+at Berkeley, Experimental Computing Facility, now full time with O'Reilly
+and Associates, Sebastopol, CA, USA.  Email: wei@xcf.berkeley.edu
+<H2>Bebo White</H2>one of the <A NAME=25 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> at SLAC, Bebo enthusiastically spreads the word.
+During a short stay at CERN in summer '92, Bebo put up a number of
+servers for information from the Aleph experiment.
+<H2>James Whitescarver</H2>New Jersey Institute of Technology. jim@eies2.njit.edu 
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+4. Exit Browser
+
+<title>Help for W3 software</title>
+<h1>Help</h1>
+Which program are you using for which you want online help?
+<dl>
+<dt><a href=LineMode/Defaults/QuickGuide.html>Line Mode Browser</a>
+<dd>Using the line mode browser, select an option with a number and press
+RETURN
+<dt>Viola
+<dd>Fpr help on Viola, just press the question-mark (?) icon near the
+top right-hand corner.
+<dt><a href=NeXT/WorldWideWeb.html>NeXTStep</a>
+<dd>To select help with this browser, use Help from the Info menu or
+select this option wit the mouse (double click).
+<dt><a href=http://slacvx.slac.stanford.edu:80/MidasWWW/v10/overview.html>
+MidasWWW</a>
+<dd>For help on this browser, select this option with the mouse.
+</dl>
+See also the
+<a href=Daemon/User/Guide.html>W3 server user manual</a>.
+For other questions, browse from the
+<a href=TheProject.html>W3 project page</a>.
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+4. Exit Browser
+
+<TITLE>People involved in the WorldWideWeb project</TITLE>
+<NEXTID 26>
+<H1>WWW people</H1>This is a list of some of those who have contributed to the <A NAME=7 HREF=TheProject.html>WWW project</A>
+, and whose work is linked into this web. Unless otherwise stated
+they are at CERN, Phone +41(22)767 plus the extension given below
+or look them up in the <A NAME=14 HREF=http://crnvmc.cern.ch./WHO>phone book</A> . Address: 1211 Geneva 23, Switzerland.
+See also: <A NAME=12 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>Wizards at SLAC</A> .
+<H2>Eelco van Asperen</H2>Ported the line-mode browser the PC under PC-NFS; developed a curses
+version. Email: evas@cs.few.eur.nl.
+<H2><A NAME=11>Carl Barker</A></H2>Carl is at CERN for a six month period during his degree course at
+Brunel University, UK.  Carl will be working on the server side, possibly
+on client authentication. Tel: 8265.  Email: barker@cernnext.cern.ch
+<H2><A NAME=BernersLee>Tim Berners-Lee</A></H2>Currently in CN division. Before comming to CERN, Tim worked on, among
+other things, document production and text processing. He developped
+his first hypertext system, "Enquire", in 1980 for his own use (although
+unaware of the existence of the term HyperText). With a background
+in text processing, real-time software and communications, Tim decided
+that high energy physics needed a networked hypertext system and CERN
+was an ideal site for the development of wide-area hypertext ideas.
+Tim started the <A NAME=0 HREF=TheProject.html>WorldWideWeb</A> project at CERN in 1989. He wrote the<A NAME=2 HREF=NeXT/WorldWideWeb.html>
+application on the NeXT</A> along with most of the communications software.
+Phone: 3755, Email: timbl@info.cern.ch
+<H2><A NAME=Cailliau>Robert Cailliau</A></H2>Formerly in programming language design and compiler construction,
+Robert has been interested in document production since 1975, when
+he designed and implemented a widely used document markup and formatting
+system. He ran CERN's Office Computing Systems group from 87 to 89.
+He is a long-time user of Hypercard, which he used to such diverse
+ends as writing trip reports, games, bookkeeping software, and budget
+preparation forms. When he is not doing WWW's public relations, Robert
+is contributing browser software for the Macintosh platform, and analysing
+the needs of physics experiments for online data access. Phone: +41
+(22) 767 50 05, Email: cailliau@cernnext.cern.ch
+<H2>Dan Connolly</H2>An early follower of the project, Dan wrote a private X-Windows editor
+for his company, and encouraged the use of proper SGML and MIME in
+the future. He wrote a <A NAME=15 HREF=MarkUp/HTML.dtd>DTD for HTML</A> and an <A NAME=16 HREF=Tools/HTMLGeneration/fix-html.pl>HTML legalizer</A> for old
+files. Email: connolly@pixel.convex.com.
+<H2>Peter Dobberstein</H2>While at the DESY lab in Hamburg (DE),  Peter did the port of the
+line-mode browser onto MVS and, indirectly, VM/CMS. These were the
+most difficult of the ports to date. He also overcame many incidental
+problems in making a large amount of information in the <A NAME=6 HREF=http://crnvmc.cern.ch/FIND/DESY?>DESY database</A>
+available. 
+<H2><A NAME=9>"Erwise" team</A></H2>Kim Nyberg, Teemu Rantanen, Kati Suominen and Kari Syd{nmaanlakka
+('{' is 'a' with two dots above it.. we must get some character set
+description into HTML!)   (under the supervision of Ari Lemmke)  are
+"Erwise".  At Helsinki Technical University, they  are writing a Motif-based
+WWW browser (editor? we can hope...) for their undergraduate final
+year project. The team can be reached as erwise@cs.hut.fi and Ari
+as arl@cs.hut.fi.
+<H2>Alain Favre</H2>Alain is an undergraduate  working with ECP/PT on a browser for Windows
+on PCs. Phone: 8265, no email yet.  In CERN mostly in the afternoons.
+<H2>David Foster</H2>With wide experience in networking, and a current conviction information
+systems and PC/Windows being the way of the future, Dave is having
+a go at a MS-Windows browser/editor. Dave also has a strong interest
+in server technology and intelligent information retrieval algorithms.
+<H2><A NAME=Groff>Jean-Francois Groff</A></H2>Provided some useful input in the "design issues". During his stay
+at CERN as "cooperant", J-F joined the project in September 1991.
+He wrote the<A NAME=5 HREF=VMSHelp/Overview.html> gateway to the VMS Help system</A> , worked on the new modular
+browser architecure, and helped support and present WWW at all levels.
+He is now porting the communications code to DECnet in order to set
+up servers for physics experiments.  JF now works for NeXT Europe
+but continues his interest in the web...(<A NAME=23 HREF=People/Groff.html> Contact</A> )
+<H2>Tony Johnson</H2>Tel: (415) 926 2278, TONYJ@scs.slac.stanford.edu.<P>
+Designer of <A NAME=21 HREF=Status.html#60>MidasWWW</A> .  Boston University, collaborating with SLAC,
+SSC, etc. A SLAC server expert and a <A NAME=22 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizard</A> .
+<H2>Paul Kunz</H2>Paul took the W3 word across to SLAC, installed the clients and inspired
+the setting up of servers by the <A NAME=19 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> .  Paul spreads enthusiasm
+for all sort of good ideas such as OO programming, NeXTs, etc...
+<H2>Willem van Leeuwen</H2>at NIKHEF, WIllem put up many <A NAME=10 HREF=http://nic.nikhef.nl./user/a03/www/default/NikhefGuide.html>servers</A> and has provided much useful
+feedback about the w3 browser code.
+<H2><A NAME=Pellow>Nicola Pellow</A></H2>With the project from November 1990 to August 1991, and October 1992
+to ??.  A graduate of Leicester Polytechnic, UK, Nicola wrote the
+original <A NAME=1 HREF=LineMode/Browser.html>line mode browser</A> .  (<A NAME=20 HREF=People/Pellow.html> More </A> ) Nicola is now (Oct 92) working
+on the <A NAME=24 HREF=Macintosh/Status.html>Mac browser</A> .
+<H2><A NAME=Pollermann>Bernd Pollermann</A></H2>Bernd is responsible for the "XFIND" indexes on the CERNVM node, for
+their operation and, largely, their contents. He is also the editor
+of the Computer Newsletter (CNL), and has experience in managing large
+databases of information. Bernd is in the AS group of CN division.
+He has contributed <A NAME=3 HREF=Status.html#17>code</A> for the FIND server which allows hypertext
+access to this large store of information. Phone: 2407, Office: 513-1-16,
+Email: bernd@cernvm.cern.ch
+<H2><A NAME=17>A</A> r<A NAME=17> thur Secret</A></H2>A student at CERN during August and September 1992, Arthur wrote the
+first <A NAME=18 HREF=Daemon/Oracle/Overview.html>W3-Oracle gateway</A> .
+<H2>Jonthan Streets</H2>Online Support group, FNAL. Jonathan put up a VMS server using DCL
+and later C. He helped debug the Mac browser.
+<H2>Pei Wei</H2>Pei is the author of " Viola", a hypertext browser, and the ViolaWWW
+variant which is a WWW browser. He was at the University of California
+at Berkeley, Experimental Computing Facility, now full time with O'Reilly
+and Associates, Sebastopol, CA, USA.  Email: wei@xcf.berkeley.edu
+<H2>Bebo White</H2>one of the <A NAME=25 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> at SLAC, Bebo enthusiastically spreads the word.
+During a short stay at CERN in summer '92, Bebo put up a number of
+servers for information from the Aleph experiment.
+<H2>James Whitescarver</H2>New Jersey Institute of Technology. jim@eies2.njit.edu 
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<title>Overview of the Web</title>
+<h1>General Overview</h1>
+There is no "top" to the World-Wide Web.
+You can look at it from many points of view.
+If you have no other bias, here are some ways of looking for
+information.
+<DL>
+<DT><a href=bySubject/Overview.html>by Subject</a>
+<DD>A classification by subject of interest. Incomplete
+but easiest to use.
+<DT><a href=ByAccess.html>by Type</a>
+<DD>Looking by type of service (access protocol, etc)
+may allow to find things if you know what you are looking for.
+</DL>
+If you have to use a "top" node, we recommend either this node
+or the subject list.
+See also: <a href=../WWW/TheProject.html>About the W3 project</a>.
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<TITLE>People involved in the WorldWideWeb project</TITLE>
+<NEXTID 26>
+<H1>WWW people</H1>This is a list of some of those who have contributed to the <A NAME=7 HREF=TheProject.html>WWW project</A>
+, and whose work is linked into this web. Unless otherwise stated
+they are at CERN, Phone +41(22)767 plus the extension given below
+or look them up in the <A NAME=14 HREF=http://crnvmc.cern.ch./WHO>phone book</A> . Address: 1211 Geneva 23, Switzerland.
+See also: <A NAME=12 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>Wizards at SLAC</A> .
+<H2>Eelco van Asperen</H2>Ported the line-mode browser the PC under PC-NFS; developed a curses
+version. Email: evas@cs.few.eur.nl.
+<H2><A NAME=11>Carl Barker</A></H2>Carl is at CERN for a six month period during his degree course at
+Brunel University, UK.  Carl will be working on the server side, possibly
+on client authentication. Tel: 8265.  Email: barker@cernnext.cern.ch
+<H2><A NAME=BernersLee>Tim Berners-Lee</A></H2>Currently in CN division. Before comming to CERN, Tim worked on, among
+other things, document production and text processing. He developped
+his first hypertext system, "Enquire", in 1980 for his own use (although
+unaware of the existence of the term HyperText). With a background
+in text processing, real-time software and communications, Tim decided
+that high energy physics needed a networked hypertext system and CERN
+was an ideal site for the development of wide-area hypertext ideas.
+Tim started the <A NAME=0 HREF=TheProject.html>WorldWideWeb</A> project at CERN in 1989. He wrote the<A NAME=2 HREF=NeXT/WorldWideWeb.html>
+application on the NeXT</A> along with most of the communications software.
+Phone: 3755, Email: timbl@info.cern.ch
+<H2><A NAME=Cailliau>Robert Cailliau</A></H2>Formerly in programming language design and compiler construction,
+Robert has been interested in document production since 1975, when
+he designed and implemented a widely used document markup and formatting
+system. He ran CERN's Office Computing Systems group from 87 to 89.
+He is a long-time user of Hypercard, which he used to such diverse
+ends as writing trip reports, games, bookkeeping software, and budget
+preparation forms. When he is not doing WWW's public relations, Robert
+is contributing browser software for the Macintosh platform, and analysing
+the needs of physics experiments for online data access. Phone: +41
+(22) 767 50 05, Email: cailliau@cernnext.cern.ch
+<H2>Dan Connolly</H2>An early follower of the project, Dan wrote a private X-Windows editor
+for his company, and encouraged the use of proper SGML and MIME in
+the future. He wrote a <A NAME=15 HREF=MarkUp/HTML.dtd>DTD for HTML</A> and an <A NAME=16 HREF=Tools/HTMLGeneration/fix-html.pl>HTML legalizer</A> for old
+files. Email: connolly@pixel.convex.com.
+<H2>Peter Dobberstein</H2>While at the DESY lab in Hamburg (DE),  Peter did the port of the
+line-mode browser onto MVS and, indirectly, VM/CMS. These were the
+most difficult of the ports to date. He also overcame many incidental
+problems in making a large amount of information in the <A NAME=6 HREF=http://crnvmc.cern.ch/FIND/DESY?>DESY database</A>
+available. 
+<H2><A NAME=9>"Erwise" team</A></H2>Kim Nyberg, Teemu Rantanen, Kati Suominen and Kari Syd{nmaanlakka
+('{' is 'a' with two dots above it.. we must get some character set
+description into HTML!)   (under the supervision of Ari Lemmke)  are
+"Erwise".  At Helsinki Technical University, they  are writing a Motif-based
+WWW browser (editor? we can hope...) for their undergraduate final
+year project. The team can be reached as erwise@cs.hut.fi and Ari
+as arl@cs.hut.fi.
+<H2>Alain Favre</H2>Alain is an undergraduate  working with ECP/PT on a browser for Windows
+on PCs. Phone: 8265, no email yet.  In CERN mostly in the afternoons.
+<H2>David Foster</H2>With wide experience in networking, and a current conviction information
+systems and PC/Windows being the way of the future, Dave is having
+a go at a MS-Windows browser/editor. Dave also has a strong interest
+in server technology and intelligent information retrieval algorithms.
+<H2><A NAME=Groff>Jean-Francois Groff</A></H2>Provided some useful input in the "design issues". During his stay
+at CERN as "cooperant", J-F joined the project in September 1991.
+He wrote the<A NAME=5 HREF=VMSHelp/Overview.html> gateway to the VMS Help system</A> , worked on the new modular
+browser architecure, and helped support and present WWW at all levels.
+He is now porting the communications code to DECnet in order to set
+up servers for physics experiments.  JF now works for NeXT Europe
+but continues his interest in the web...(<A NAME=23 HREF=People/Groff.html> Contact</A> )
+<H2>Tony Johnson</H2>Tel: (415) 926 2278, TONYJ@scs.slac.stanford.edu.<P>
+Designer of <A NAME=21 HREF=Status.html#60>MidasWWW</A> .  Boston University, collaborating with SLAC,
+SSC, etc. A SLAC server expert and a <A NAME=22 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizard</A> .
+<H2>Paul Kunz</H2>Paul took the W3 word across to SLAC, installed the clients and inspired
+the setting up of servers by the <A NAME=19 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> .  Paul spreads enthusiasm
+for all sort of good ideas such as OO programming, NeXTs, etc...
+<H2>Willem van Leeuwen</H2>at NIKHEF, WIllem put up many <A NAME=10 HREF=http://nic.nikhef.nl./user/a03/www/default/NikhefGuide.html>servers</A> and has provided much useful
+feedback about the w3 browser code.
+<H2><A NAME=Pellow>Nicola Pellow</A></H2>With the project from November 1990 to August 1991, and October 1992
+to ??.  A graduate of Leicester Polytechnic, UK, Nicola wrote the
+original <A NAME=1 HREF=LineMode/Browser.html>line mode browser</A> .  (<A NAME=20 HREF=People/Pellow.html> More </A> ) Nicola is now (Oct 92) working
+on the <A NAME=24 HREF=Macintosh/Status.html>Mac browser</A> .
+<H2><A NAME=Pollermann>Bernd Pollermann</A></H2>Bernd is responsible for the "XFIND" indexes on the CERNVM node, for
+their operation and, largely, their contents. He is also the editor
+of the Computer Newsletter (CNL), and has experience in managing large
+databases of information. Bernd is in the AS group of CN division.
+He has contributed <A NAME=3 HREF=Status.html#17>code</A> for the FIND server which allows hypertext
+access to this large store of information. Phone: 2407, Office: 513-1-16,
+Email: bernd@cernvm.cern.ch
+<H2><A NAME=17>A</A> r<A NAME=17> thur Secret</A></H2>A student at CERN during August and September 1992, Arthur wrote the
+first <A NAME=18 HREF=Daemon/Oracle/Overview.html>W3-Oracle gateway</A> .
+<H2>Jonthan Streets</H2>Online Support group, FNAL. Jonathan put up a VMS server using DCL
+and later C. He helped debug the Mac browser.
+<H2>Pei Wei</H2>Pei is the author of " Viola", a hypertext browser, and the ViolaWWW
+variant which is a WWW browser. He was at the University of California
+at Berkeley, Experimental Computing Facility, now full time with O'Reilly
+and Associates, Sebastopol, CA, USA.  Email: wei@xcf.berkeley.edu
+<H2>Bebo White</H2>one of the <A NAME=25 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> at SLAC, Bebo enthusiastically spreads the word.
+During a short stay at CERN in summer '92, Bebo put up a number of
+servers for information from the Aleph experiment.
+<H2>James Whitescarver</H2>New Jersey Institute of Technology. jim@eies2.njit.edu 
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<title>Help for W3 software</title>
+<h1>Help</h1>
+Which program are you using for which you want online help?
+<dl>
+<dt><a href=LineMode/Defaults/QuickGuide.html>Line Mode Browser</a>
+<dd>Using the line mode browser, select an option with a number and press
+RETURN
+<dt>Viola
+<dd>Fpr help on Viola, just press the question-mark (?) icon near the
+top right-hand corner.
+<dt><a href=NeXT/WorldWideWeb.html>NeXTStep</a>
+<dd>To select help with this browser, use Help from the Info menu or
+select this option wit the mouse (double click).
+<dt><a href=http://slacvx.slac.stanford.edu:80/MidasWWW/v10/overview.html>
+MidasWWW</a>
+<dd>For help on this browser, select this option with the mouse.
+</dl>
+See also the
+<a href=Daemon/User/Guide.html>W3 server user manual</a>.
+For other questions, browse from the
+<a href=TheProject.html>W3 project page</a>.
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+4. Exit Browser
+
+<TITLE>People involved in the WorldWideWeb project</TITLE>
+<NEXTID 26>
+<H1>WWW people</H1>This is a list of some of those who have contributed to the <A NAME=7 HREF=TheProject.html>WWW project</A>
+, and whose work is linked into this web. Unless otherwise stated
+they are at CERN, Phone +41(22)767 plus the extension given below
+or look them up in the <A NAME=14 HREF=http://crnvmc.cern.ch./WHO>phone book</A> . Address: 1211 Geneva 23, Switzerland.
+See also: <A NAME=12 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>Wizards at SLAC</A> .
+<H2>Eelco van Asperen</H2>Ported the line-mode browser the PC under PC-NFS; developed a curses
+version. Email: evas@cs.few.eur.nl.
+<H2><A NAME=11>Carl Barker</A></H2>Carl is at CERN for a six month period during his degree course at
+Brunel University, UK.  Carl will be working on the server side, possibly
+on client authentication. Tel: 8265.  Email: barker@cernnext.cern.ch
+<H2><A NAME=BernersLee>Tim Berners-Lee</A></H2>Currently in CN division. Before comming to CERN, Tim worked on, among
+other things, document production and text processing. He developped
+his first hypertext system, "Enquire", in 1980 for his own use (although
+unaware of the existence of the term HyperText). With a background
+in text processing, real-time software and communications, Tim decided
+that high energy physics needed a networked hypertext system and CERN
+was an ideal site for the development of wide-area hypertext ideas.
+Tim started the <A NAME=0 HREF=TheProject.html>WorldWideWeb</A> project at CERN in 1989. He wrote the<A NAME=2 HREF=NeXT/WorldWideWeb.html>
+application on the NeXT</A> along with most of the communications software.
+Phone: 3755, Email: timbl@info.cern.ch
+<H2><A NAME=Cailliau>Robert Cailliau</A></H2>Formerly in programming language design and compiler construction,
+Robert has been interested in document production since 1975, when
+he designed and implemented a widely used document markup and formatting
+system. He ran CERN's Office Computing Systems group from 87 to 89.
+He is a long-time user of Hypercard, which he used to such diverse
+ends as writing trip reports, games, bookkeeping software, and budget
+preparation forms. When he is not doing WWW's public relations, Robert
+is contributing browser software for the Macintosh platform, and analysing
+the needs of physics experiments for online data access. Phone: +41
+(22) 767 50 05, Email: cailliau@cernnext.cern.ch
+<H2>Dan Connolly</H2>An early follower of the project, Dan wrote a private X-Windows editor
+for his company, and encouraged the use of proper SGML and MIME in
+the future. He wrote a <A NAME=15 HREF=MarkUp/HTML.dtd>DTD for HTML</A> and an <A NAME=16 HREF=Tools/HTMLGeneration/fix-html.pl>HTML legalizer</A> for old
+files. Email: connolly@pixel.convex.com.
+<H2>Peter Dobberstein</H2>While at the DESY lab in Hamburg (DE),  Peter did the port of the
+line-mode browser onto MVS and, indirectly, VM/CMS. These were the
+most difficult of the ports to date. He also overcame many incidental
+problems in making a large amount of information in the <A NAME=6 HREF=http://crnvmc.cern.ch/FIND/DESY?>DESY database</A>
+available. 
+<H2><A NAME=9>"Erwise" team</A></H2>Kim Nyberg, Teemu Rantanen, Kati Suominen and Kari Syd{nmaanlakka
+('{' is 'a' with two dots above it.. we must get some character set
+description into HTML!)   (under the supervision of Ari Lemmke)  are
+"Erwise".  At Helsinki Technical University, they  are writing a Motif-based
+WWW browser (editor? we can hope...) for their undergraduate final
+year project. The team can be reached as erwise@cs.hut.fi and Ari
+as arl@cs.hut.fi.
+<H2>Alain Favre</H2>Alain is an undergraduate  working with ECP/PT on a browser for Windows
+on PCs. Phone: 8265, no email yet.  In CERN mostly in the afternoons.
+<H2>David Foster</H2>With wide experience in networking, and a current conviction information
+systems and PC/Windows being the way of the future, Dave is having
+a go at a MS-Windows browser/editor. Dave also has a strong interest
+in server technology and intelligent information retrieval algorithms.
+<H2><A NAME=Groff>Jean-Francois Groff</A></H2>Provided some useful input in the "design issues". During his stay
+at CERN as "cooperant", J-F joined the project in September 1991.
+He wrote the<A NAME=5 HREF=VMSHelp/Overview.html> gateway to the VMS Help system</A> , worked on the new modular
+browser architecure, and helped support and present WWW at all levels.
+He is now porting the communications code to DECnet in order to set
+up servers for physics experiments.  JF now works for NeXT Europe
+but continues his interest in the web...(<A NAME=23 HREF=People/Groff.html> Contact</A> )
+<H2>Tony Johnson</H2>Tel: (415) 926 2278, TONYJ@scs.slac.stanford.edu.<P>
+Designer of <A NAME=21 HREF=Status.html#60>MidasWWW</A> .  Boston University, collaborating with SLAC,
+SSC, etc. A SLAC server expert and a <A NAME=22 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizard</A> .
+<H2>Paul Kunz</H2>Paul took the W3 word across to SLAC, installed the clients and inspired
+the setting up of servers by the <A NAME=19 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> .  Paul spreads enthusiasm
+for all sort of good ideas such as OO programming, NeXTs, etc...
+<H2>Willem van Leeuwen</H2>at NIKHEF, WIllem put up many <A NAME=10 HREF=http://nic.nikhef.nl./user/a03/www/default/NikhefGuide.html>servers</A> and has provided much useful
+feedback about the w3 browser code.
+<H2><A NAME=Pellow>Nicola Pellow</A></H2>With the project from November 1990 to August 1991, and October 1992
+to ??.  A graduate of Leicester Polytechnic, UK, Nicola wrote the
+original <A NAME=1 HREF=LineMode/Browser.html>line mode browser</A> .  (<A NAME=20 HREF=People/Pellow.html> More </A> ) Nicola is now (Oct 92) working
+on the <A NAME=24 HREF=Macintosh/Status.html>Mac browser</A> .
+<H2><A NAME=Pollermann>Bernd Pollermann</A></H2>Bernd is responsible for the "XFIND" indexes on the CERNVM node, for
+their operation and, largely, their contents. He is also the editor
+of the Computer Newsletter (CNL), and has experience in managing large
+databases of information. Bernd is in the AS group of CN division.
+He has contributed <A NAME=3 HREF=Status.html#17>code</A> for the FIND server which allows hypertext
+access to this large store of information. Phone: 2407, Office: 513-1-16,
+Email: bernd@cernvm.cern.ch
+<H2><A NAME=17>A</A> r<A NAME=17> thur Secret</A></H2>A student at CERN during August and September 1992, Arthur wrote the
+first <A NAME=18 HREF=Daemon/Oracle/Overview.html>W3-Oracle gateway</A> .
+<H2>Jonthan Streets</H2>Online Support group, FNAL. Jonathan put up a VMS server using DCL
+and later C. He helped debug the Mac browser.
+<H2>Pei Wei</H2>Pei is the author of " Viola", a hypertext browser, and the ViolaWWW
+variant which is a WWW browser. He was at the University of California
+at Berkeley, Experimental Computing Facility, now full time with O'Reilly
+and Associates, Sebastopol, CA, USA.  Email: wei@xcf.berkeley.edu
+<H2>Bebo White</H2>one of the <A NAME=25 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> at SLAC, Bebo enthusiastically spreads the word.
+During a short stay at CERN in summer '92, Bebo put up a number of
+servers for information from the Aleph experiment.
+<H2>James Whitescarver</H2>New Jersey Institute of Technology. jim@eies2.njit.edu 
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<HEADER>
+<TITLE>WWW Software products</TITLE>
+<NEXTID N="71">
+</HEADER>
+<BODY>
+<H1>W3 Software</H1>This is a list of products related
+to the <A
+NAME=69 HREF="TheProject.html">WWW project</A> with a link to
+a status summary of each one.  For
+list of previous milestones, releases,
+etc, see the "Features" list for
+each product, linked to the wish
+lists. See also: <A
+NAME=56 HREF="../README.html">getting the files</A>
+.
+<DL>
+<DT><A
+NAME=57 HREF="Library/Status.html">Common Library</A>
+<DD> The common code library
+is the basis for most browers. It
+contains the network access code
+and format handling.
+</DL>
+
+<H2>Clients</H3>
+<DL>
+<DT><A
+NAME=42 HREF="LineMode/Status.html">Line Mode Browser</A>
+<DD> This program gives
+W3 readership to anyone with a dumb
+terminal. Not as flashy as a windows
+implementation, it  covers a wide
+class of users who do still not have
+window facilities, and is a general
+purpose information retrieval tool.
+<DT><A
+NAME=61 HREF="Curses/Status.html">Curses Browser</A>
+<DD> Assumes a character-grid
+terminal with cursor addressing,
+and provides a full-screen interface
+to the web.
+<DT><A
+NAME=62 HREF="Macintosh/Status.html">Macintosh Browser</A>
+<DD> WWW browser for
+the Macintosh. (Pre-alpha.)
+<DT><A
+NAME=36 HREF="Erwise/Status.html">"Erwise"</A>
+<DD> WWW browser for X/Motif.
+(Unsupported).
+<DT><A
+NAME=35 HREF="Viola/Status.html">"ViolaWWW" Browser for X11</A>
+<DD> WWW browser
+for X11. 
+<DT><A
+NAME=64 HREF="TkWWW/Status.html">tkWWW Browser</A>
+<DD> WWW browser for X11.
+<DT><A
+NAME=60 HREF="MidasWWW/Status.html">MidasWWW</A> Browser
+<DD> WWW browser for
+X/Motif. 
+<DT><A
+NAME=wwwnext HREF="NeXT/Status.html">Browser-Editor on the NeXT</A>
+<DD> A browser/editor
+for NeXTStep. Allows wysiwyg hypertext
+editing. 
+<DT><A
+NAME=65 HREF="VMClient/Status.html">Browser on CERNVM</A>
+<DD> A W3 browser for
+VM. Nonexistant.
+<DT><A
+NAME=z70 HREF="FineWWW/Status.html">Tom Fine's Browser</A>
+<DD>A tty-based browser
+written in perl. (Beta)
+</DL>
+
+<H2>Servers</H3>
+<DL>
+<DT><A
+NAME=17 HREF="FIND/Status.html">VM  server</A>
+<DD> A server for VM mainframes.
+<DT><A
+NAME=66 HREF="Daemon/Status.html">Generic server</A>
+<DD> A server for unix
+and VMS systems. A fast file server
+suitbale on-line documentation, and
+adaptable to many needs.
+<DT><A
+NAME=67 HREF="Daemon/VMSGateStatus.html">VMS/Help gateway</A>
+<DD> Run son a VMS machine
+and allows webc lient eveywhere to
+read local VMS/Help files.
+<DT><A
+NAME=68 HREF="MailRobot/Status.html">Mail Robot</A>
+<DD> A server which will returns
+documents by mail, given a request
+sent by mail. Also manages mailing
+lists.</BODY>
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+4. Exit Browser
+
+<TITLE>People involved in the WorldWideWeb project</TITLE>
+<NEXTID 26>
+<H1>WWW people</H1>This is a list of some of those who have contributed to the <A NAME=7 HREF=TheProject.html>WWW project</A>
+, and whose work is linked into this web. Unless otherwise stated
+they are at CERN, Phone +41(22)767 plus the extension given below
+or look them up in the <A NAME=14 HREF=http://crnvmc.cern.ch./WHO>phone book</A> . Address: 1211 Geneva 23, Switzerland.
+See also: <A NAME=12 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>Wizards at SLAC</A> .
+<H2>Eelco van Asperen</H2>Ported the line-mode browser the PC under PC-NFS; developed a curses
+version. Email: evas@cs.few.eur.nl.
+<H2><A NAME=11>Carl Barker</A></H2>Carl is at CERN for a six month period during his degree course at
+Brunel University, UK.  Carl will be working on the server side, possibly
+on client authentication. Tel: 8265.  Email: barker@cernnext.cern.ch
+<H2><A NAME=BernersLee>Tim Berners-Lee</A></H2>Currently in CN division. Before comming to CERN, Tim worked on, among
+other things, document production and text processing. He developped
+his first hypertext system, "Enquire", in 1980 for his own use (although
+unaware of the existence of the term HyperText). With a background
+in text processing, real-time software and communications, Tim decided
+that high energy physics needed a networked hypertext system and CERN
+was an ideal site for the development of wide-area hypertext ideas.
+Tim started the <A NAME=0 HREF=TheProject.html>WorldWideWeb</A> project at CERN in 1989. He wrote the<A NAME=2 HREF=NeXT/WorldWideWeb.html>
+application on the NeXT</A> along with most of the communications software.
+Phone: 3755, Email: timbl@info.cern.ch
+<H2><A NAME=Cailliau>Robert Cailliau</A></H2>Formerly in programming language design and compiler construction,
+Robert has been interested in document production since 1975, when
+he designed and implemented a widely used document markup and formatting
+system. He ran CERN's Office Computing Systems group from 87 to 89.
+He is a long-time user of Hypercard, which he used to such diverse
+ends as writing trip reports, games, bookkeeping software, and budget
+preparation forms. When he is not doing WWW's public relations, Robert
+is contributing browser software for the Macintosh platform, and analysing
+the needs of physics experiments for online data access. Phone: +41
+(22) 767 50 05, Email: cailliau@cernnext.cern.ch
+<H2>Dan Connolly</H2>An early follower of the project, Dan wrote a private X-Windows editor
+for his company, and encouraged the use of proper SGML and MIME in
+the future. He wrote a <A NAME=15 HREF=MarkUp/HTML.dtd>DTD for HTML</A> and an <A NAME=16 HREF=Tools/HTMLGeneration/fix-html.pl>HTML legalizer</A> for old
+files. Email: connolly@pixel.convex.com.
+<H2>Peter Dobberstein</H2>While at the DESY lab in Hamburg (DE),  Peter did the port of the
+line-mode browser onto MVS and, indirectly, VM/CMS. These were the
+most difficult of the ports to date. He also overcame many incidental
+problems in making a large amount of information in the <A NAME=6 HREF=http://crnvmc.cern.ch/FIND/DESY?>DESY database</A>
+available. 
+<H2><A NAME=9>"Erwise" team</A></H2>Kim Nyberg, Teemu Rantanen, Kati Suominen and Kari Syd{nmaanlakka
+('{' is 'a' with two dots above it.. we must get some character set
+description into HTML!)   (under the supervision of Ari Lemmke)  are
+"Erwise".  At Helsinki Technical University, they  are writing a Motif-based
+WWW browser (editor? we can hope...) for their undergraduate final
+year project. The team can be reached as erwise@cs.hut.fi and Ari
+as arl@cs.hut.fi.
+<H2>Alain Favre</H2>Alain is an undergraduate  working with ECP/PT on a browser for Windows
+on PCs. Phone: 8265, no email yet.  In CERN mostly in the afternoons.
+<H2>David Foster</H2>With wide experience in networking, and a current conviction information
+systems and PC/Windows being the way of the future, Dave is having
+a go at a MS-Windows browser/editor. Dave also has a strong interest
+in server technology and intelligent information retrieval algorithms.
+<H2><A NAME=Groff>Jean-Francois Groff</A></H2>Provided some useful input in the "design issues". During his stay
+at CERN as "cooperant", J-F joined the project in September 1991.
+He wrote the<A NAME=5 HREF=VMSHelp/Overview.html> gateway to the VMS Help system</A> , worked on the new modular
+browser architecure, and helped support and present WWW at all levels.
+He is now porting the communications code to DECnet in order to set
+up servers for physics experiments.  JF now works for NeXT Europe
+but continues his interest in the web...(<A NAME=23 HREF=People/Groff.html> Contact</A> )
+<H2>Tony Johnson</H2>Tel: (415) 926 2278, TONYJ@scs.slac.stanford.edu.<P>
+Designer of <A NAME=21 HREF=Status.html#60>MidasWWW</A> .  Boston University, collaborating with SLAC,
+SSC, etc. A SLAC server expert and a <A NAME=22 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizard</A> .
+<H2>Paul Kunz</H2>Paul took the W3 word across to SLAC, installed the clients and inspired
+the setting up of servers by the <A NAME=19 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> .  Paul spreads enthusiasm
+for all sort of good ideas such as OO programming, NeXTs, etc...
+<H2>Willem van Leeuwen</H2>at NIKHEF, WIllem put up many <A NAME=10 HREF=http://nic.nikhef.nl./user/a03/www/default/NikhefGuide.html>servers</A> and has provided much useful
+feedback about the w3 browser code.
+<H2><A NAME=Pellow>Nicola Pellow</A></H2>With the project from November 1990 to August 1991, and October 1992
+to ??.  A graduate of Leicester Polytechnic, UK, Nicola wrote the
+original <A NAME=1 HREF=LineMode/Browser.html>line mode browser</A> .  (<A NAME=20 HREF=People/Pellow.html> More </A> ) Nicola is now (Oct 92) working
+on the <A NAME=24 HREF=Macintosh/Status.html>Mac browser</A> .
+<H2><A NAME=Pollermann>Bernd Pollermann</A></H2>Bernd is responsible for the "XFIND" indexes on the CERNVM node, for
+their operation and, largely, their contents. He is also the editor
+of the Computer Newsletter (CNL), and has experience in managing large
+databases of information. Bernd is in the AS group of CN division.
+He has contributed <A NAME=3 HREF=Status.html#17>code</A> for the FIND server which allows hypertext
+access to this large store of information. Phone: 2407, Office: 513-1-16,
+Email: bernd@cernvm.cern.ch
+<H2><A NAME=17>A</A> r<A NAME=17> thur Secret</A></H2>A student at CERN during August and September 1992, Arthur wrote the
+first <A NAME=18 HREF=Daemon/Oracle/Overview.html>W3-Oracle gateway</A> .
+<H2>Jonthan Streets</H2>Online Support group, FNAL. Jonathan put up a VMS server using DCL
+and later C. He helped debug the Mac browser.
+<H2>Pei Wei</H2>Pei is the author of " Viola", a hypertext browser, and the ViolaWWW
+variant which is a WWW browser. He was at the University of California
+at Berkeley, Experimental Computing Facility, now full time with O'Reilly
+and Associates, Sebastopol, CA, USA.  Email: wei@xcf.berkeley.edu
+<H2>Bebo White</H2>one of the <A NAME=25 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> at SLAC, Bebo enthusiastically spreads the word.
+During a short stay at CERN in summer '92, Bebo put up a number of
+servers for information from the Aleph experiment.
+<H2>James Whitescarver</H2>New Jersey Institute of Technology. jim@eies2.njit.edu 
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<title>Overview of the Web</title>
+<h1>General Overview</h1>
+There is no "top" to the World-Wide Web.
+You can look at it from many points of view.
+If you have no other bias, here are some ways of looking for
+information.
+<DL>
+<DT><a href=bySubject/Overview.html>by Subject</a>
+<DD>A classification by subject of interest. Incomplete
+but easiest to use.
+<DT><a href=ByAccess.html>by Type</a>
+<DD>Looking by type of service (access protocol, etc)
+may allow to find things if you know what you are looking for.
+</DL>
+If you have to use a "top" node, we recommend either this node
+or the subject list.
+See also: <a href=../WWW/TheProject.html>About the W3 project</a>.
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<HEADER>
+<TITLE>The World Wide Web project</TITLE>
+<NEXTID N="55">
+</HEADER>
+<BODY>
+<H1>World Wide Web</H1>The WorldWideWeb (W3) is a wide-area<A
+NAME=0 HREF="WhatIs.html">
+hypermedia</A> information retrieval
+initiative aiming to give universal
+access to a large universe of documents.<P>
+Everything there is online about
+W3 is linked directly or indirectly
+to this document, including an <A
+NAME=24 HREF="Summary.html">executive
+summary</A> of the project, <A
+NAME=29 HREF="Administration/Mailing/Overview.html">Mailing lists</A>
+, <A
+NAME=30 HREF="Policy.html">Policy</A> , November's  <A
+NAME=34 HREF="News/9211.html">W3  news</A> ,
+<A
+NAME=41 HREF="FAQ/List.html">Frequently Asked Questions</A> .
+<DL>
+<DT><A
+NAME=44 HREF="../DataSources/Top.html">What's out there?</A>
+<DD> Pointers to the
+world's online information,<A
+NAME=45 HREF="../DataSources/bySubject/Overview.html"> subjects</A>
+, <A
+NAME=z54 HREF="../DataSources/WWW/Servers.html">W3 servers</A>, etc.
+<DT><A
+NAME=46 HREF="Help.html">Help</A>
+<DD> on the browser you are using
+<DT><A
+NAME=13 HREF="Status.html">Software Products</A>
+<DD> A list of W3 project
+components and their current state.
+(e.g. <A
+NAME=27 HREF="LineMode/Browser.html">Line Mode</A> ,X11 <A
+NAME=35 HREF="Status.html#35">Viola</A> ,  <A
+NAME=26 HREF="NeXT/WorldWideWeb.html">NeXTStep</A>
+, <A
+NAME=25 HREF="Daemon/Overview.html">Servers</A> , <A
+NAME=51 HREF="Tools/Overview.html">Tools</A> ,<A
+NAME=53 HREF="MailRobot/Overview.html"> Mail robot</A> ,<A
+NAME=52 HREF="Status.html#57">
+Library</A> )
+<DT><A
+NAME=47 HREF="Technical.html">Technical</A>
+<DD> Details of protocols, formats,
+program internals etc
+<DT><A
+NAME=40 HREF="Bibliography.html">Bibliography</A>
+<DD> Paper documentation
+on  W3 and references.
+<DT><A
+NAME=14 HREF="People.html">People</A>
+<DD> A list of some people involved
+in the project.
+<DT><A
+NAME=15 HREF="History.html">History</A>
+<DD> A summary of the history
+of the project.
+<DT><A
+NAME=37 HREF="Helping.html">How can I help</A> ?
+<DD> If you would like
+to support the web..
+<DT><A
+NAME=48 HREF="../README.html">Getting code</A>
+<DD> Getting the code by<A
+NAME=49 HREF="LineMode/Defaults/Distribution.html">
+anonymous FTP</A> , etc.</A>
+</DL>
+</BODY>
+
+What would you like to do? 
+1. Navigate to a new URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<title>Overview of the Web</title>
+<h1>General Overview</h1>
+There is no "top" to the World-Wide Web.
+You can look at it from many points of view.
+If you have no other bias, here are some ways of looking for
+information.
+<DL>
+<DT><a href=bySubject/Overview.html>by Subject</a>
+<DD>A classification by subject of interest. Incomplete
+but easiest to use.
+<DT><a href=ByAccess.html>by Type</a>
+<DD>Looking by type of service (access protocol, etc)
+may allow to find things if you know what you are looking for.
+</DL>
+If you have to use a "top" node, we recommend either this node
+or the subject list.
+See also: <a href=../WWW/TheProject.html>About the W3 project</a>.
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<TITLE>People involved in the WorldWideWeb project</TITLE>
+<NEXTID 26>
+<H1>WWW people</H1>This is a list of some of those who have contributed to the <A NAME=7 HREF=TheProject.html>WWW project</A>
+, and whose work is linked into this web. Unless otherwise stated
+they are at CERN, Phone +41(22)767 plus the extension given below
+or look them up in the <A NAME=14 HREF=http://crnvmc.cern.ch./WHO>phone book</A> . Address: 1211 Geneva 23, Switzerland.
+See also: <A NAME=12 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>Wizards at SLAC</A> .
+<H2>Eelco van Asperen</H2>Ported the line-mode browser the PC under PC-NFS; developed a curses
+version. Email: evas@cs.few.eur.nl.
+<H2><A NAME=11>Carl Barker</A></H2>Carl is at CERN for a six month period during his degree course at
+Brunel University, UK.  Carl will be working on the server side, possibly
+on client authentication. Tel: 8265.  Email: barker@cernnext.cern.ch
+<H2><A NAME=BernersLee>Tim Berners-Lee</A></H2>Currently in CN division. Before comming to CERN, Tim worked on, among
+other things, document production and text processing. He developped
+his first hypertext system, "Enquire", in 1980 for his own use (although
+unaware of the existence of the term HyperText). With a background
+in text processing, real-time software and communications, Tim decided
+that high energy physics needed a networked hypertext system and CERN
+was an ideal site for the development of wide-area hypertext ideas.
+Tim started the <A NAME=0 HREF=TheProject.html>WorldWideWeb</A> project at CERN in 1989. He wrote the<A NAME=2 HREF=NeXT/WorldWideWeb.html>
+application on the NeXT</A> along with most of the communications software.
+Phone: 3755, Email: timbl@info.cern.ch
+<H2><A NAME=Cailliau>Robert Cailliau</A></H2>Formerly in programming language design and compiler construction,
+Robert has been interested in document production since 1975, when
+he designed and implemented a widely used document markup and formatting
+system. He ran CERN's Office Computing Systems group from 87 to 89.
+He is a long-time user of Hypercard, which he used to such diverse
+ends as writing trip reports, games, bookkeeping software, and budget
+preparation forms. When he is not doing WWW's public relations, Robert
+is contributing browser software for the Macintosh platform, and analysing
+the needs of physics experiments for online data access. Phone: +41
+(22) 767 50 05, Email: cailliau@cernnext.cern.ch
+<H2>Dan Connolly</H2>An early follower of the project, Dan wrote a private X-Windows editor
+for his company, and encouraged the use of proper SGML and MIME in
+the future. He wrote a <A NAME=15 HREF=MarkUp/HTML.dtd>DTD for HTML</A> and an <A NAME=16 HREF=Tools/HTMLGeneration/fix-html.pl>HTML legalizer</A> for old
+files. Email: connolly@pixel.convex.com.
+<H2>Peter Dobberstein</H2>While at the DESY lab in Hamburg (DE),  Peter did the port of the
+line-mode browser onto MVS and, indirectly, VM/CMS. These were the
+most difficult of the ports to date. He also overcame many incidental
+problems in making a large amount of information in the <A NAME=6 HREF=http://crnvmc.cern.ch/FIND/DESY?>DESY database</A>
+available. 
+<H2><A NAME=9>"Erwise" team</A></H2>Kim Nyberg, Teemu Rantanen, Kati Suominen and Kari Syd{nmaanlakka
+('{' is 'a' with two dots above it.. we must get some character set
+description into HTML!)   (under the supervision of Ari Lemmke)  are
+"Erwise".  At Helsinki Technical University, they  are writing a Motif-based
+WWW browser (editor? we can hope...) for their undergraduate final
+year project. The team can be reached as erwise@cs.hut.fi and Ari
+as arl@cs.hut.fi.
+<H2>Alain Favre</H2>Alain is an undergraduate  working with ECP/PT on a browser for Windows
+on PCs. Phone: 8265, no email yet.  In CERN mostly in the afternoons.
+<H2>David Foster</H2>With wide experience in networking, and a current conviction information
+systems and PC/Windows being the way of the future, Dave is having
+a go at a MS-Windows browser/editor. Dave also has a strong interest
+in server technology and intelligent information retrieval algorithms.
+<H2><A NAME=Groff>Jean-Francois Groff</A></H2>Provided some useful input in the "design issues". During his stay
+at CERN as "cooperant", J-F joined the project in September 1991.
+He wrote the<A NAME=5 HREF=VMSHelp/Overview.html> gateway to the VMS Help system</A> , worked on the new modular
+browser architecure, and helped support and present WWW at all levels.
+He is now porting the communications code to DECnet in order to set
+up servers for physics experiments.  JF now works for NeXT Europe
+but continues his interest in the web...(<A NAME=23 HREF=People/Groff.html> Contact</A> )
+<H2>Tony Johnson</H2>Tel: (415) 926 2278, TONYJ@scs.slac.stanford.edu.<P>
+Designer of <A NAME=21 HREF=Status.html#60>MidasWWW</A> .  Boston University, collaborating with SLAC,
+SSC, etc. A SLAC server expert and a <A NAME=22 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizard</A> .
+<H2>Paul Kunz</H2>Paul took the W3 word across to SLAC, installed the clients and inspired
+the setting up of servers by the <A NAME=19 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> .  Paul spreads enthusiasm
+for all sort of good ideas such as OO programming, NeXTs, etc...
+<H2>Willem van Leeuwen</H2>at NIKHEF, WIllem put up many <A NAME=10 HREF=http://nic.nikhef.nl./user/a03/www/default/NikhefGuide.html>servers</A> and has provided much useful
+feedback about the w3 browser code.
+<H2><A NAME=Pellow>Nicola Pellow</A></H2>With the project from November 1990 to August 1991, and October 1992
+to ??.  A graduate of Leicester Polytechnic, UK, Nicola wrote the
+original <A NAME=1 HREF=LineMode/Browser.html>line mode browser</A> .  (<A NAME=20 HREF=People/Pellow.html> More </A> ) Nicola is now (Oct 92) working
+on the <A NAME=24 HREF=Macintosh/Status.html>Mac browser</A> .
+<H2><A NAME=Pollermann>Bernd Pollermann</A></H2>Bernd is responsible for the "XFIND" indexes on the CERNVM node, for
+their operation and, largely, their contents. He is also the editor
+of the Computer Newsletter (CNL), and has experience in managing large
+databases of information. Bernd is in the AS group of CN division.
+He has contributed <A NAME=3 HREF=Status.html#17>code</A> for the FIND server which allows hypertext
+access to this large store of information. Phone: 2407, Office: 513-1-16,
+Email: bernd@cernvm.cern.ch
+<H2><A NAME=17>A</A> r<A NAME=17> thur Secret</A></H2>A student at CERN during August and September 1992, Arthur wrote the
+first <A NAME=18 HREF=Daemon/Oracle/Overview.html>W3-Oracle gateway</A> .
+<H2>Jonthan Streets</H2>Online Support group, FNAL. Jonathan put up a VMS server using DCL
+and later C. He helped debug the Mac browser.
+<H2>Pei Wei</H2>Pei is the author of " Viola", a hypertext browser, and the ViolaWWW
+variant which is a WWW browser. He was at the University of California
+at Berkeley, Experimental Computing Facility, now full time with O'Reilly
+and Associates, Sebastopol, CA, USA.  Email: wei@xcf.berkeley.edu
+<H2>Bebo White</H2>one of the <A NAME=25 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> at SLAC, Bebo enthusiastically spreads the word.
+During a short stay at CERN in summer '92, Bebo put up a number of
+servers for information from the Aleph experiment.
+<H2>James Whitescarver</H2>New Jersey Institute of Technology. jim@eies2.njit.edu 
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<HEADER>
+<TITLE>WWW Software products</TITLE>
+<NEXTID N="71">
+</HEADER>
+<BODY>
+<H1>W3 Software</H1>This is a list of products related
+to the <A
+NAME=69 HREF="TheProject.html">WWW project</A> with a link to
+a status summary of each one.  For
+list of previous milestones, releases,
+etc, see the "Features" list for
+each product, linked to the wish
+lists. See also: <A
+NAME=56 HREF="../README.html">getting the files</A>
+.
+<DL>
+<DT><A
+NAME=57 HREF="Library/Status.html">Common Library</A>
+<DD> The common code library
+is the basis for most browers. It
+contains the network access code
+and format handling.
+</DL>
+
+<H2>Clients</H3>
+<DL>
+<DT><A
+NAME=42 HREF="LineMode/Status.html">Line Mode Browser</A>
+<DD> This program gives
+W3 readership to anyone with a dumb
+terminal. Not as flashy as a windows
+implementation, it  covers a wide
+class of users who do still not have
+window facilities, and is a general
+purpose information retrieval tool.
+<DT><A
+NAME=61 HREF="Curses/Status.html">Curses Browser</A>
+<DD> Assumes a character-grid
+terminal with cursor addressing,
+and provides a full-screen interface
+to the web.
+<DT><A
+NAME=62 HREF="Macintosh/Status.html">Macintosh Browser</A>
+<DD> WWW browser for
+the Macintosh. (Pre-alpha.)
+<DT><A
+NAME=36 HREF="Erwise/Status.html">"Erwise"</A>
+<DD> WWW browser for X/Motif.
+(Unsupported).
+<DT><A
+NAME=35 HREF="Viola/Status.html">"ViolaWWW" Browser for X11</A>
+<DD> WWW browser
+for X11. 
+<DT><A
+NAME=64 HREF="TkWWW/Status.html">tkWWW Browser</A>
+<DD> WWW browser for X11.
+<DT><A
+NAME=60 HREF="MidasWWW/Status.html">MidasWWW</A> Browser
+<DD> WWW browser for
+X/Motif. 
+<DT><A
+NAME=wwwnext HREF="NeXT/Status.html">Browser-Editor on the NeXT</A>
+<DD> A browser/editor
+for NeXTStep. Allows wysiwyg hypertext
+editing. 
+<DT><A
+NAME=65 HREF="VMClient/Status.html">Browser on CERNVM</A>
+<DD> A W3 browser for
+VM. Nonexistant.
+<DT><A
+NAME=z70 HREF="FineWWW/Status.html">Tom Fine's Browser</A>
+<DD>A tty-based browser
+written in perl. (Beta)
+</DL>
+
+<H2>Servers</H3>
+<DL>
+<DT><A
+NAME=17 HREF="FIND/Status.html">VM  server</A>
+<DD> A server for VM mainframes.
+<DT><A
+NAME=66 HREF="Daemon/Status.html">Generic server</A>
+<DD> A server for unix
+and VMS systems. A fast file server
+suitbale on-line documentation, and
+adaptable to many needs.
+<DT><A
+NAME=67 HREF="Daemon/VMSGateStatus.html">VMS/Help gateway</A>
+<DD> Run son a VMS machine
+and allows webc lient eveywhere to
+read local VMS/Help files.
+<DT><A
+NAME=68 HREF="MailRobot/Status.html">Mail Robot</A>
+<DD> A server which will returns
+documents by mail, given a request
+sent by mail. Also manages mailing
+lists.</BODY>
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+4. Exit Browser
+
+<TITLE>Technical Aspects of the World-Wide Web</TITLE>
+<NEXTID 44>
+<H1>Technical details</H1>(See also: <A NAME=0 HREF=TheProject.html>W3 project</A> )
+<DL>
+<DT><A NAME=32 HREF=Provider/Overview.html>How to provide data</A>
+<DD> How can I make my own data available on the web?
+<DT><A NAME=5 HREF=Protocols/RelevantProtocols.html>Protocols</A>
+<DD> A description of the network protocols used.
+<DT><A NAME=11 HREF=MarkUp/MarkUp.html>HTML format</A>
+<DD> A description of the mark-up language used for some documents
+and for search hit-lists.
+<DT><A NAME=6 HREF=Addressing/Addressing.html>Addressing</A>
+<DD> The syntax of W3 document addresses.
+<DT><A NAME=12 HREF=DesignIssues/Overview.html>Design Issues</A>
+<DD> Discussions of decisions to be made when designing or
+selecting a hypertext/IR system. See also <A NAME=23 HREF=RelatedProducts.html>related products</A> .
+<DT><A NAME=16 HREF=WorkingNotes/Overview.html>Working notes</A>
+<DD> Work in progress at the drawing board. 
+<DT><A NAME=17 HREF=../DataSources/ByAccess.html>Data sources</A>
+<DD> Sources of data on the web itself, including <A NAME=39 HREF=../DataSources/WWW/Servers.html>W3 servers</A>.
+<DT><A NAME=7 HREF=Newsgroups.html>News</A>
+<DD> Some internet/usenet newsgroups of possible interest to the WorldWideWeb
+project.
+<DT><A NAME=42 HREF=Notation.html>Notation</A>
+<DD> Explanation of notation used in formal descriptions.
+<DT><A NAME=43 HREF=DesignIssues/DosDonts.html>Implementation guidelines</A>
+<DD> Rules to be followed by implementers.
+<DT><A NAME=28 HREF=Project/Coding.html>Coding standards</A>
+<DD> A basic style guide for W3 code contributors. If
+you write code, read this!</A>
+</DL>
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+4. Exit Browser
+
+<TITLE>Protocol Specifications relevant to HyperText</TITLE>
+<NEXTID 18>
+<H1>Relevant protocols</H1>The <A NAME=0 HREF=../TheProject.html>WorldWideWeb</A> system can pick up information from many information
+sources, using existing protocols. Among these are file and news transfer
+protocols.
+<H2><A NAME=11>File Transfer</A></H2>The file transfer protocol currently most used for accessing fairly
+stable public information over a wide area is "Anonymous FTP". This
+means the use of the internet File Transfer Protocol without authentication.
+As the WWW project currently operates for the sake of public information,
+anonymous FTP is quite appropriate, and WWW can pick up any information
+provided by anonymous FTP. FTP is defined in<A NAME=1 HREF=rfc959.txt> RFC 959</A> which includes
+material from many previous RFCs. (See also: <A NAME=2 HREF=../Addressing/FileAddressing.html> file address syntax</A>
+). Directories are browsed as hypertext.  The browser will notice
+references to files which are in fact accessible as locally mounted
+(or on DECnet on VMS systems) and use direct access instead.<P>
+See also the prospero project and the <A NAME=10 HREF=../../../Shift/shift0-4.dvi>shift</A> project, for more powerful
+file access systems.
+<H2>Network News</H2>The "Network News Transfer Protocol" (NNTP) is defined in<A NAME=3 HREF=rfc977.txt> RFC 977</A>
+by Kantor and Lampsley. This allows transient news information in
+the USENET news format to be exchanged over the internet. The format
+of news articles is defined in<A NAME=4 HREF=rfc850.txt> RFC 850, Standard for Interchange of
+USENET Messages</A> by Mark Horton. This in turn refers to the standard<A NAME=5 HREF=rfc822.txt>
+RFC 822</A> which defines the format of internet mail messages. News articles
+make good examples of hypertext, as articles contain references to
+other articles and news groups. News groups appear like directories,
+but more informative.
+<H2>Search and Retrieve</H2>The WWW project defines its own protocol for information transfer,
+called HTTP, for <A NAME=9 HREF=HTTP/AsImplemented.html>HyperText Transfer Protocol</A>. HTTP is a very simple
+internet protocol, similar in implementation to FTP and NNTP.  The
+HTTP client sends a <A NAME=17 HREF=../Addressing/Addressing.html>document identifier</A> with or without search words,
+and the server responds with hypertext or plain text. Extensions are
+foreseen to allow for more elaborate queries and <A NAME=16 HREF=../DesignIssues/Formats.html#4>format negotiation</A>.
+The protocol runs over TCP, using one connection per document request.
+The browser acts as a pipeline, so that as data arrives from the server,
+it is presented to the reader on the fly.<P>
+Whilst the <A NAME=12 HREF=HTTP.html>HTTP</A> protocol provides a simple keyword search function,
+a famous search-and-retrieve protocol is Z39.50, and the version of
+it used by the <A NAME=13 HREF=../../Products/WAIS/Overview.html>WAIS</A> project.  (See also the WAIS-WWW <A NAME=14 HREF=../Daemon/WAISGate.html>gateway</A>).
+<H2>Gopher</H2>The Gopher distributed information system uses a lightweight <A NAME=15 HREF=../../Gopher/gopher_protocol/protocol.rtf>protocol</A>
+very similar to HTTP. Therefore, it is now included in every WWW client,
+so that the Gopher world can be browsed as part of the Web. Gopher
+menus are easily mapped onto hypertext links. Chances are that future
+versions of the Gopher and HTTP protocols will converge.
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+4. Exit Browser
+
+<TITLE>Coding -- /Project</TITLE>
+<NEXTID 14>
+<H1>Coding Standards</H1>This document describes a coding style for C code (and therefore largely
+for C++ and Objective-C code). The style is used by the W3 project
+used so that:-
+<UL>
+<LI>Code is portable and maintainable.
+<LI>Code is easily readable by other project members.
+</UL>If you have suggestions, do send them. (We do not include points designed
+to allow automatic processing of code by parsers with an incomplete
+awareness of C syntax.).   IF YOU DO NOT ABIDE BY THIS GUIDE YOUR
+CODE WILL ANNOY OTHER TEAM MEMBERS AND MAY NOT PORT.<P>
+The style guide is divided into sections on <A NAME=1 HREF=Language.html>Language features</A> ,<A NAME=10 HREF=Macros.html> Macros</A>
+, <A NAME=9 HREF=ModuleHeader.html>Module header</A> , <A NAME=11 HREF=Modules.html>Modules in straight C</A> , <A NAME=2 HREF=Headings.html>Function header</A> , <A NAME=3 HREF=Body.html>Code style</A>
+, <A NAME=4 HREF=Identifiers.html>Identifiers</A> , Code management: the use of <A NAME=12 HREF=UseOfCVS.html>CVS</A> , <A NAME=7 HREF=IncludeFiles.html>Include files</A> ,<A NAME=8 HREF=Directories.html>
+Directory structure</A> , special <A NAME=13 HREF=CodingMarks.html>marks</A> .<P>
+(See also pointers to some <A NAME=5 HREF=../CodingStandards.html>public domain styles</A> ). _________________________________________________________________
+<ADDRESS><A NAME=0 HREF=http://info.cern.ch./hypertext/TBL_Disclaimer.html>Tim BL</A></A><P>
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+4. Exit Browser
+
+<TITLE>Protocol Specifications relevant to HyperText</TITLE>
+<NEXTID 18>
+<H1>Relevant protocols</H1>The <A NAME=0 HREF=../TheProject.html>WorldWideWeb</A> system can pick up information from many information
+sources, using existing protocols. Among these are file and news transfer
+protocols.
+<H2><A NAME=11>File Transfer</A></H2>The file transfer protocol currently most used for accessing fairly
+stable public information over a wide area is "Anonymous FTP". This
+means the use of the internet File Transfer Protocol without authentication.
+As the WWW project currently operates for the sake of public information,
+anonymous FTP is quite appropriate, and WWW can pick up any information
+provided by anonymous FTP. FTP is defined in<A NAME=1 HREF=rfc959.txt> RFC 959</A> which includes
+material from many previous RFCs. (See also: <A NAME=2 HREF=../Addressing/FileAddressing.html> file address syntax</A>
+). Directories are browsed as hypertext.  The browser will notice
+references to files which are in fact accessible as locally mounted
+(or on DECnet on VMS systems) and use direct access instead.<P>
+See also the prospero project and the <A NAME=10 HREF=../../../Shift/shift0-4.dvi>shift</A> project, for more powerful
+file access systems.
+<H2>Network News</H2>The "Network News Transfer Protocol" (NNTP) is defined in<A NAME=3 HREF=rfc977.txt> RFC 977</A>
+by Kantor and Lampsley. This allows transient news information in
+the USENET news format to be exchanged over the internet. The format
+of news articles is defined in<A NAME=4 HREF=rfc850.txt> RFC 850, Standard for Interchange of
+USENET Messages</A> by Mark Horton. This in turn refers to the standard<A NAME=5 HREF=rfc822.txt>
+RFC 822</A> which defines the format of internet mail messages. News articles
+make good examples of hypertext, as articles contain references to
+other articles and news groups. News groups appear like directories,
+but more informative.
+<H2>Search and Retrieve</H2>The WWW project defines its own protocol for information transfer,
+called HTTP, for <A NAME=9 HREF=HTTP/AsImplemented.html>HyperText Transfer Protocol</A>. HTTP is a very simple
+internet protocol, similar in implementation to FTP and NNTP.  The
+HTTP client sends a <A NAME=17 HREF=../Addressing/Addressing.html>document identifier</A> with or without search words,
+and the server responds with hypertext or plain text. Extensions are
+foreseen to allow for more elaborate queries and <A NAME=16 HREF=../DesignIssues/Formats.html#4>format negotiation</A>.
+The protocol runs over TCP, using one connection per document request.
+The browser acts as a pipeline, so that as data arrives from the server,
+it is presented to the reader on the fly.<P>
+Whilst the <A NAME=12 HREF=HTTP.html>HTTP</A> protocol provides a simple keyword search function,
+a famous search-and-retrieve protocol is Z39.50, and the version of
+it used by the <A NAME=13 HREF=../../Products/WAIS/Overview.html>WAIS</A> project.  (See also the WAIS-WWW <A NAME=14 HREF=../Daemon/WAISGate.html>gateway</A>).
+<H2>Gopher</H2>The Gopher distributed information system uses a lightweight <A NAME=15 HREF=../../Gopher/gopher_protocol/protocol.rtf>protocol</A>
+very similar to HTTP. Therefore, it is now included in every WWW client,
+so that the Gopher world can be browsed as part of the Web. Gopher
+menus are easily mapped onto hypertext links. Chances are that future
+versions of the Gopher and HTTP protocols will converge.
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<TITLE>Technical Aspects of the World-Wide Web</TITLE>
+<NEXTID 44>
+<H1>Technical details</H1>(See also: <A NAME=0 HREF=TheProject.html>W3 project</A> )
+<DL>
+<DT><A NAME=32 HREF=Provider/Overview.html>How to provide data</A>
+<DD> How can I make my own data available on the web?
+<DT><A NAME=5 HREF=Protocols/RelevantProtocols.html>Protocols</A>
+<DD> A description of the network protocols used.
+<DT><A NAME=11 HREF=MarkUp/MarkUp.html>HTML format</A>
+<DD> A description of the mark-up language used for some documents
+and for search hit-lists.
+<DT><A NAME=6 HREF=Addressing/Addressing.html>Addressing</A>
+<DD> The syntax of W3 document addresses.
+<DT><A NAME=12 HREF=DesignIssues/Overview.html>Design Issues</A>
+<DD> Discussions of decisions to be made when designing or
+selecting a hypertext/IR system. See also <A NAME=23 HREF=RelatedProducts.html>related products</A> .
+<DT><A NAME=16 HREF=WorkingNotes/Overview.html>Working notes</A>
+<DD> Work in progress at the drawing board. 
+<DT><A NAME=17 HREF=../DataSources/ByAccess.html>Data sources</A>
+<DD> Sources of data on the web itself, including <A NAME=39 HREF=../DataSources/WWW/Servers.html>W3 servers</A>.
+<DT><A NAME=7 HREF=Newsgroups.html>News</A>
+<DD> Some internet/usenet newsgroups of possible interest to the WorldWideWeb
+project.
+<DT><A NAME=42 HREF=Notation.html>Notation</A>
+<DD> Explanation of notation used in formal descriptions.
+<DT><A NAME=43 HREF=DesignIssues/DosDonts.html>Implementation guidelines</A>
+<DD> Rules to be followed by implementers.
+<DT><A NAME=28 HREF=Project/Coding.html>Coding standards</A>
+<DD> A basic style guide for W3 code contributors. If
+you write code, read this!</A>
+</DL>
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<HEADER>
+<TITLE>WWW Software products</TITLE>
+<NEXTID N="71">
+</HEADER>
+<BODY>
+<H1>W3 Software</H1>This is a list of products related
+to the <A
+NAME=69 HREF="TheProject.html">WWW project</A> with a link to
+a status summary of each one.  For
+list of previous milestones, releases,
+etc, see the "Features" list for
+each product, linked to the wish
+lists. See also: <A
+NAME=56 HREF="../README.html">getting the files</A>
+.
+<DL>
+<DT><A
+NAME=57 HREF="Library/Status.html">Common Library</A>
+<DD> The common code library
+is the basis for most browers. It
+contains the network access code
+and format handling.
+</DL>
+
+<H2>Clients</H3>
+<DL>
+<DT><A
+NAME=42 HREF="LineMode/Status.html">Line Mode Browser</A>
+<DD> This program gives
+W3 readership to anyone with a dumb
+terminal. Not as flashy as a windows
+implementation, it  covers a wide
+class of users who do still not have
+window facilities, and is a general
+purpose information retrieval tool.
+<DT><A
+NAME=61 HREF="Curses/Status.html">Curses Browser</A>
+<DD> Assumes a character-grid
+terminal with cursor addressing,
+and provides a full-screen interface
+to the web.
+<DT><A
+NAME=62 HREF="Macintosh/Status.html">Macintosh Browser</A>
+<DD> WWW browser for
+the Macintosh. (Pre-alpha.)
+<DT><A
+NAME=36 HREF="Erwise/Status.html">"Erwise"</A>
+<DD> WWW browser for X/Motif.
+(Unsupported).
+<DT><A
+NAME=35 HREF="Viola/Status.html">"ViolaWWW" Browser for X11</A>
+<DD> WWW browser
+for X11. 
+<DT><A
+NAME=64 HREF="TkWWW/Status.html">tkWWW Browser</A>
+<DD> WWW browser for X11.
+<DT><A
+NAME=60 HREF="MidasWWW/Status.html">MidasWWW</A> Browser
+<DD> WWW browser for
+X/Motif. 
+<DT><A
+NAME=wwwnext HREF="NeXT/Status.html">Browser-Editor on the NeXT</A>
+<DD> A browser/editor
+for NeXTStep. Allows wysiwyg hypertext
+editing. 
+<DT><A
+NAME=65 HREF="VMClient/Status.html">Browser on CERNVM</A>
+<DD> A W3 browser for
+VM. Nonexistant.
+<DT><A
+NAME=z70 HREF="FineWWW/Status.html">Tom Fine's Browser</A>
+<DD>A tty-based browser
+written in perl. (Beta)
+</DL>
+
+<H2>Servers</H3>
+<DL>
+<DT><A
+NAME=17 HREF="FIND/Status.html">VM  server</A>
+<DD> A server for VM mainframes.
+<DT><A
+NAME=66 HREF="Daemon/Status.html">Generic server</A>
+<DD> A server for unix
+and VMS systems. A fast file server
+suitbale on-line documentation, and
+adaptable to many needs.
+<DT><A
+NAME=67 HREF="Daemon/VMSGateStatus.html">VMS/Help gateway</A>
+<DD> Run son a VMS machine
+and allows webc lient eveywhere to
+read local VMS/Help files.
+<DT><A
+NAME=68 HREF="MailRobot/Status.html">Mail Robot</A>
+<DD> A server which will returns
+documents by mail, given a request
+sent by mail. Also manages mailing
+lists.</BODY>
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<TITLE>People involved in the WorldWideWeb project</TITLE>
+<NEXTID 26>
+<H1>WWW people</H1>This is a list of some of those who have contributed to the <A NAME=7 HREF=TheProject.html>WWW project</A>
+, and whose work is linked into this web. Unless otherwise stated
+they are at CERN, Phone +41(22)767 plus the extension given below
+or look them up in the <A NAME=14 HREF=http://crnvmc.cern.ch./WHO>phone book</A> . Address: 1211 Geneva 23, Switzerland.
+See also: <A NAME=12 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>Wizards at SLAC</A> .
+<H2>Eelco van Asperen</H2>Ported the line-mode browser the PC under PC-NFS; developed a curses
+version. Email: evas@cs.few.eur.nl.
+<H2><A NAME=11>Carl Barker</A></H2>Carl is at CERN for a six month period during his degree course at
+Brunel University, UK.  Carl will be working on the server side, possibly
+on client authentication. Tel: 8265.  Email: barker@cernnext.cern.ch
+<H2><A NAME=BernersLee>Tim Berners-Lee</A></H2>Currently in CN division. Before comming to CERN, Tim worked on, among
+other things, document production and text processing. He developped
+his first hypertext system, "Enquire", in 1980 for his own use (although
+unaware of the existence of the term HyperText). With a background
+in text processing, real-time software and communications, Tim decided
+that high energy physics needed a networked hypertext system and CERN
+was an ideal site for the development of wide-area hypertext ideas.
+Tim started the <A NAME=0 HREF=TheProject.html>WorldWideWeb</A> project at CERN in 1989. He wrote the<A NAME=2 HREF=NeXT/WorldWideWeb.html>
+application on the NeXT</A> along with most of the communications software.
+Phone: 3755, Email: timbl@info.cern.ch
+<H2><A NAME=Cailliau>Robert Cailliau</A></H2>Formerly in programming language design and compiler construction,
+Robert has been interested in document production since 1975, when
+he designed and implemented a widely used document markup and formatting
+system. He ran CERN's Office Computing Systems group from 87 to 89.
+He is a long-time user of Hypercard, which he used to such diverse
+ends as writing trip reports, games, bookkeeping software, and budget
+preparation forms. When he is not doing WWW's public relations, Robert
+is contributing browser software for the Macintosh platform, and analysing
+the needs of physics experiments for online data access. Phone: +41
+(22) 767 50 05, Email: cailliau@cernnext.cern.ch
+<H2>Dan Connolly</H2>An early follower of the project, Dan wrote a private X-Windows editor
+for his company, and encouraged the use of proper SGML and MIME in
+the future. He wrote a <A NAME=15 HREF=MarkUp/HTML.dtd>DTD for HTML</A> and an <A NAME=16 HREF=Tools/HTMLGeneration/fix-html.pl>HTML legalizer</A> for old
+files. Email: connolly@pixel.convex.com.
+<H2>Peter Dobberstein</H2>While at the DESY lab in Hamburg (DE),  Peter did the port of the
+line-mode browser onto MVS and, indirectly, VM/CMS. These were the
+most difficult of the ports to date. He also overcame many incidental
+problems in making a large amount of information in the <A NAME=6 HREF=http://crnvmc.cern.ch/FIND/DESY?>DESY database</A>
+available. 
+<H2><A NAME=9>"Erwise" team</A></H2>Kim Nyberg, Teemu Rantanen, Kati Suominen and Kari Syd{nmaanlakka
+('{' is 'a' with two dots above it.. we must get some character set
+description into HTML!)   (under the supervision of Ari Lemmke)  are
+"Erwise".  At Helsinki Technical University, they  are writing a Motif-based
+WWW browser (editor? we can hope...) for their undergraduate final
+year project. The team can be reached as erwise@cs.hut.fi and Ari
+as arl@cs.hut.fi.
+<H2>Alain Favre</H2>Alain is an undergraduate  working with ECP/PT on a browser for Windows
+on PCs. Phone: 8265, no email yet.  In CERN mostly in the afternoons.
+<H2>David Foster</H2>With wide experience in networking, and a current conviction information
+systems and PC/Windows being the way of the future, Dave is having
+a go at a MS-Windows browser/editor. Dave also has a strong interest
+in server technology and intelligent information retrieval algorithms.
+<H2><A NAME=Groff>Jean-Francois Groff</A></H2>Provided some useful input in the "design issues". During his stay
+at CERN as "cooperant", J-F joined the project in September 1991.
+He wrote the<A NAME=5 HREF=VMSHelp/Overview.html> gateway to the VMS Help system</A> , worked on the new modular
+browser architecure, and helped support and present WWW at all levels.
+He is now porting the communications code to DECnet in order to set
+up servers for physics experiments.  JF now works for NeXT Europe
+but continues his interest in the web...(<A NAME=23 HREF=People/Groff.html> Contact</A> )
+<H2>Tony Johnson</H2>Tel: (415) 926 2278, TONYJ@scs.slac.stanford.edu.<P>
+Designer of <A NAME=21 HREF=Status.html#60>MidasWWW</A> .  Boston University, collaborating with SLAC,
+SSC, etc. A SLAC server expert and a <A NAME=22 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizard</A> .
+<H2>Paul Kunz</H2>Paul took the W3 word across to SLAC, installed the clients and inspired
+the setting up of servers by the <A NAME=19 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> .  Paul spreads enthusiasm
+for all sort of good ideas such as OO programming, NeXTs, etc...
+<H2>Willem van Leeuwen</H2>at NIKHEF, WIllem put up many <A NAME=10 HREF=http://nic.nikhef.nl./user/a03/www/default/NikhefGuide.html>servers</A> and has provided much useful
+feedback about the w3 browser code.
+<H2><A NAME=Pellow>Nicola Pellow</A></H2>With the project from November 1990 to August 1991, and October 1992
+to ??.  A graduate of Leicester Polytechnic, UK, Nicola wrote the
+original <A NAME=1 HREF=LineMode/Browser.html>line mode browser</A> .  (<A NAME=20 HREF=People/Pellow.html> More </A> ) Nicola is now (Oct 92) working
+on the <A NAME=24 HREF=Macintosh/Status.html>Mac browser</A> .
+<H2><A NAME=Pollermann>Bernd Pollermann</A></H2>Bernd is responsible for the "XFIND" indexes on the CERNVM node, for
+their operation and, largely, their contents. He is also the editor
+of the Computer Newsletter (CNL), and has experience in managing large
+databases of information. Bernd is in the AS group of CN division.
+He has contributed <A NAME=3 HREF=Status.html#17>code</A> for the FIND server which allows hypertext
+access to this large store of information. Phone: 2407, Office: 513-1-16,
+Email: bernd@cernvm.cern.ch
+<H2><A NAME=17>A</A> r<A NAME=17> thur Secret</A></H2>A student at CERN during August and September 1992, Arthur wrote the
+first <A NAME=18 HREF=Daemon/Oracle/Overview.html>W3-Oracle gateway</A> .
+<H2>Jonthan Streets</H2>Online Support group, FNAL. Jonathan put up a VMS server using DCL
+and later C. He helped debug the Mac browser.
+<H2>Pei Wei</H2>Pei is the author of " Viola", a hypertext browser, and the ViolaWWW
+variant which is a WWW browser. He was at the University of California
+at Berkeley, Experimental Computing Facility, now full time with O'Reilly
+and Associates, Sebastopol, CA, USA.  Email: wei@xcf.berkeley.edu
+<H2>Bebo White</H2>one of the <A NAME=25 HREF=http://slacvm.slac.stanford.edu:80/FIND/wizards.html>WWWizards</A> at SLAC, Bebo enthusiastically spreads the word.
+During a short stay at CERN in summer '92, Bebo put up a number of
+servers for information from the Aleph experiment.
+<H2>James Whitescarver</H2>New Jersey Institute of Technology. jim@eies2.njit.edu 
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+3. Go Forward to the next URL
+4. Exit Browser
+
+<TITLE>Language -- /Project</TITLE>
+<NEXTID 7>
+<H1>Language features</H1>Code to be common shared code must (unfortunately!) be written in
+C, rather than any objective C or C++, to ensure maximum portability.
+This section does not apply to code written for specific platforms.<P>
+C code must compile under either a conforming ANSI C compiler OR an
+original Kernighan & Ritchie C compiler. Therefore, the __STDC__ macro
+must be used to select alternative code where necessary.. (<A NAME=1 HREF=Ex_Heading.html> example</A>
+)<P>
+Code should compile without warnings under an ANSI C compiler such
+as gcc with all warnings enabled.
+<DL>
+<DT>Parameters and Arguments
+<DD> The <A NAME=3 HREF=Macros.html#1>PARAMS(()) macro</A>  is used to give a format
+parameter list in a declataion so that it will be suppressed if the
+compiler is not standard C - see <A NAME=4 HREF=Ex_Heading.html>example</A> ..  The ARGS1 macro is for
+the declaration of the implementation,  taking first the type then
+the argument name. For n arguments, macros <A NAME=5 HREF=Macros.html#9>ARGn</A> exists taking 2n arguments
+each.
+<DT>#endif
+<DD> Do put the ending condition in a comment. Don't put  it as
+code - it won't pass all compilers. 
+<DT>#elif
+<DD>Don't use it. Basic cpp doesn't know it.
+<DT>#preprocessor statements
+<DD> DON'T indent any preprocessor statements.
+They must (for some compilers) begin in column 1.
+<DT>const
+<DD> This keyword does not exist in K&R C, so use the macro <A NAME=6 HREF=Macros.html#10>CONST</A>
+which expands to "const" under standard C and nothing otherwise. --
+See HTUtils.h
+</DL>
+(part of: <A NAME=2 HREF=Coding.html>style guide</A> ) _________________________________________________________________
+<ADDRESS><A NAME=0 HREF=http://info.cern.ch./hypertext/TBL_Disclaimer.html>Tim BL</A></A>
+</ADDRESS>
+
+What would you like to do? 
+1. Navigate to a new URL
+2. Go Back to the previous URL
+4. Exit Browser
+
+Invalid choice. No more URLs to visit.
+
+What would you like to do? 
+2. Go Back to the previous URL
+4. Exit Browser
+
+Exiting browser. Goodbye!

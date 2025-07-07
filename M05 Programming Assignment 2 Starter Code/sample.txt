@@ -1,0 +1,109 @@
+Welcome to Sakila
+Please choose an option (enter -1 to quit):  
+1. View the rentals for a customer
+2. View Customer Information
+Enter Choice: 1
+There are 599 rows in the result.  How many do you want to see per page?
+10
+Please choose the customer you want to see rentals for (enter 0 to go to the next page):
+1. 1 - MARY SMITH 
+2. 2 - PATRICIA JOHNSON 
+3. 3 - LINDA WILLIAMS 
+4. 4 - BARBARA JONES 
+5. 5 - ELIZABETH BROWN 
+6. 6 - JENNIFER DAVIS 
+7. 7 - MARIA MILLER 
+8. 8 - SUSAN WILSON 
+9. 9 - MARGARET MOORE 
+10. 10 - DOROTHY TAYLOR 
+0
+Please choose the customer you want to see rentals for (enter 0 to go to the next page or -1 to go to the previous page):
+11. 11 - LISA ANDERSON 
+12. 12 - NANCY THOMAS 
+13. 13 - KAREN JACKSON 
+14. 14 - BETTY WHITE 
+15. 15 - HELEN HARRIS 
+16. 16 - SANDRA MARTIN 
+17. 17 - DONNA THOMPSON 
+18. 18 - CAROL GARCIA 
+19. 19 - RUTH MARTINEZ 
+20. 20 - SHARON ROBINSON 
+15
+There are 33 rows in the result.  How many do you want to see per page?
+10
+Please choose the rental you want to see (enter 0 to go to the next page):
+1. 2486 - 2005-06-18 21:26:56 
+2. 2937 - 2005-06-20 05:15:37 
+3. 3182 - 2005-06-20 22:52:18 
+4. 3550 - 2005-07-06 02:29:21 
+5. 4127 - 2005-07-07 07:26:19 
+6. 5717 - 2005-07-10 11:02:03 
+7. 5975 - 2005-07-11 00:14:19 
+8. 7105 - 2005-07-27 05:15:37 
+9. 8193 - 2005-07-28 22:50:50 
+10. 8615 - 2005-07-29 13:36:01 
+5
+Rental Date: 2005-07-07 07:26:19
+Staff: Jon Stephens
+Customer: HELEN HARRIS
+Film Information:
+GROUNDHOG UNCUT - A Brilliant Panorama of a Astronaut And a Technical Writer who must Discover a Butler in A Manhattan Penthouse $4.99
+Return Date: 2005-07-14 07:50:19
+
+
+Please choose an option (enter -1 to quit):  
+1. View the rentals for a customer
+2. View Customer Information
+Enter Choice: 2
+Please choose the customer you want to see:
+There are 599 rows in the result.  How many do you want to see per page?
+10
+Please choose the customer you want to see rentals for (enter 0 to go to the next page):
+1. 1 - SMITH MARY 
+2. 2 - JOHNSON PATRICIA 
+3. 3 - WILLIAMS LINDA 
+4. 4 - JONES BARBARA 
+5. 5 - BROWN ELIZABETH 
+6. 6 - DAVIS JENNIFER 
+7. 7 - MILLER MARIA 
+8. 8 - WILSON SUSAN 
+9. 9 - MOORE MARGARET 
+10. 10 - TAYLOR DOROTHY 
+0
+Please choose the customer you want to see rentals for (enter 0 to go to the next page or -1 to go to the previous page):
+11. 11 - ANDERSON LISA 
+12. 12 - THOMAS NANCY 
+13. 13 - JACKSON KAREN 
+14. 14 - WHITE BETTY 
+15. 15 - HARRIS HELEN 
+16. 16 - MARTIN SANDRA 
+17. 17 - THOMPSON DONNA 
+18. 18 - GARCIA CAROL 
+19. 19 - MARTINEZ RUTH 
+20. 20 - ROBINSON SHARON 
+-1
+Please choose the customer you want to see rentals for (enter 0 to go to the next page):
+1. 1 - SMITH MARY 
+2. 2 - JOHNSON PATRICIA 
+3. 3 - WILLIAMS LINDA 
+4. 4 - JONES BARBARA 
+5. 5 - BROWN ELIZABETH 
+6. 6 - DAVIS JENNIFER 
+7. 7 - MILLER MARIA 
+8. 8 - WILSON SUSAN 
+9. 9 - MOORE MARGARET 
+10. 10 - TAYLOR DOROTHY 
+5
+----Customer Information----
+Name: ELIZABETH BROWN
+Address: 53 Idfu Parkway
+Nantou, Nantou 42399
+Phone Number: 10655648674
+Email: ELIZABETH.BROWN@sakilacustomer.org
+Last Update: 2006-02-15 04:57:20
+
+
+Please choose an option (enter -1 to quit):  
+1. View the rentals for a customer
+2. View Customer Information
+Enter Choice: -1

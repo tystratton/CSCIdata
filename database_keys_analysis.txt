@@ -1,0 +1,188 @@
+DATABASE KEYS ANALYSIS
+======================
+
+CUSTOMER TABLE
+--------------
+Primary Key: CUS_CODE
+Foreign Keys: None
+
+Attributes:
+- CUS_CODE (Primary Key)
+- CUS_LNAME
+- CUS_FNAME
+- CUS_AREACODE
+- CUS_PHONE
+- CUS_BALANCE
+
+
+INVOICE TABLE
+-------------
+Primary Key: INV_NUMBER
+Foreign Keys: CUS_CODE (references CUSTOMER.CUS_CODE)
+
+Attributes:
+- INV_NUMBER (Primary Key)
+- CUS_CODE (Foreign Key → CUSTOMER)
+- INV_DATE
+
+
+LINE TABLE
+----------
+Primary Key: INV_NUMBER + LINE_NUMBER (Composite Key)
+Foreign Keys: 
+- INV_NUMBER (references INVOICE.INV_NUMBER)
+- P_CODE (references PRODUCT.P_CODE)
+
+Attributes:
+- INV_NUMBER (Foreign Key → INVOICE, Part of Composite Primary Key)
+- LINE_NUMBER (Part of Composite Primary Key)
+- P_CODE (Foreign Key → PRODUCT)
+- LINE_UNITS
+- LINE_PRICE
+
+
+PRODUCT TABLE
+-------------
+Primary Key: P_CODE
+Foreign Keys: V_CODE (references VENDOR.V_CODE)
+
+Attributes:
+- P_CODE (Primary Key)
+- P_DESCRIPT
+- P_INDATE
+- P_QOH
+- P_MIN
+- P_PRICE
+- P_DISCOUNT
+- V_CODE (Foreign Key → VENDOR)
+
+
+VENDOR TABLE
+------------
+Primary Key: V_CODE
+Foreign Keys: None
+
+Attributes:
+- V_CODE (Primary Key)
+- V_NAME
+- V_CONTACT
+- V_AREACODE
+- V_PHONE
+- V_STATE
+- V_ORDER
+
+
+RELATIONSHIPS SUMMARY
+====================
+
+1. CUSTOMER (1) ←→ (M) INVOICE
+   - One customer can have multiple invoices
+   - Relationship: CUS_CODE
+
+2. INVOICE (1) ←→ (M) LINE
+   - One invoice can have multiple line items
+   - Relationship: INV_NUMBER
+
+3. PRODUCT (1) ←→ (M) LINE
+   - One product can appear on multiple line items
+   - Relationship: P_CODE
+
+4. VENDOR (1) ←→ (M) PRODUCT
+   - One vendor can supply multiple products
+   - Relationship: V_CODE
+
+
+SUPER KEYS AND SECONDARY KEYS ANALYSIS
+======================================
+
+CUSTOMER TABLE
+--------------
+Super Keys:
+- {CUS_CODE}
+- {CUS_CODE, CUS_LNAME}
+- {CUS_CODE, CUS_FNAME}
+- {CUS_CODE, CUS_AREACODE}
+- {CUS_CODE, CUS_PHONE}
+- {CUS_CODE, CUS_BALANCE}
+- {CUS_CODE, CUS_LNAME, CUS_FNAME}
+- {CUS_CODE, CUS_LNAME, CUS_FNAME, CUS_AREACODE, CUS_PHONE}
+- ... (any combination that includes CUS_CODE)
+
+Candidate Keys (Secondary Keys):
+- {CUS_CODE} (Primary Key - chosen)
+- {CUS_LNAME, CUS_FNAME, CUS_AREACODE, CUS_PHONE} (potentially unique)
+
+
+INVOICE TABLE
+-------------
+Super Keys:
+- {INV_NUMBER}
+- {INV_NUMBER, CUS_CODE}
+- {INV_NUMBER, INV_DATE}
+- {INV_NUMBER, CUS_CODE, INV_DATE}
+- ... (any combination that includes INV_NUMBER)
+
+Candidate Keys (Secondary Keys):
+- {INV_NUMBER} (Primary Key - chosen)
+
+
+LINE TABLE
+----------
+Super Keys:
+- {INV_NUMBER, LINE_NUMBER}
+- {INV_NUMBER, LINE_NUMBER, P_CODE}
+- {INV_NUMBER, LINE_NUMBER, LINE_UNITS}
+- {INV_NUMBER, LINE_NUMBER, LINE_PRICE}
+- {INV_NUMBER, LINE_NUMBER, P_CODE, LINE_UNITS, LINE_PRICE}
+- ... (any combination that includes {INV_NUMBER, LINE_NUMBER})
+
+Candidate Keys (Secondary Keys):
+- {INV_NUMBER, LINE_NUMBER} (Primary Key - chosen)
+
+
+PRODUCT TABLE
+-------------
+Super Keys:
+- {P_CODE}
+- {P_CODE, P_DESCRIPT}
+- {P_CODE, P_INDATE}
+- {P_CODE, V_CODE}
+- {P_CODE, P_QOH, P_MIN, P_PRICE}
+- ... (any combination that includes P_CODE)
+
+Candidate Keys (Secondary Keys):
+- {P_CODE} (Primary Key - chosen)
+- {P_DESCRIPT} (potentially unique if product descriptions are unique)
+
+
+VENDOR TABLE
+------------
+Super Keys:
+- {V_CODE}
+- {V_CODE, V_NAME}
+- {V_CODE, V_CONTACT}
+- {V_CODE, V_AREACODE, V_PHONE}
+- {V_CODE, V_STATE, V_ORDER}
+- ... (any combination that includes V_CODE)
+
+Candidate Keys (Secondary Keys):
+- {V_CODE} (Primary Key - chosen)
+- {V_NAME} (potentially unique if vendor names are unique)
+- {V_CONTACT, V_AREACODE, V_PHONE} (potentially unique combination)
+
+
+KEY CONSTRAINTS
+===============
+
+Primary Keys (Unique, Not Null):
+- CUSTOMER.CUS_CODE
+- INVOICE.INV_NUMBER
+- LINE.(INV_NUMBER + LINE_NUMBER)
+- PRODUCT.P_CODE
+- VENDOR.V_CODE
+
+Foreign Keys (Referential Integrity):
+- INVOICE.CUS_CODE → CUSTOMER.CUS_CODE
+- LINE.INV_NUMBER → INVOICE.INV_NUMBER
+- LINE.P_CODE → PRODUCT.P_CODE
+- PRODUCT.V_CODE → VENDOR.V_CODE 

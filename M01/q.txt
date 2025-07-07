@@ -1,0 +1,12 @@
+
+    Do you think your program will help the study keep track of the research data?
+    I don't think putting them into .dat files is a good idea. They should go into a SQL database since I made a comma separated list.
+    
+    Describe how you might add functionality to calculate the statistics.
+    I'd add functions in the class to determine how many from each study are experiencing side effects. I would change certain
+    questions to just be a boolean for research purposes instead of allowing them to type full answers.
+
+    What things do you think will be easier and what things are more difficult using file I/O instead of a database?
+    Using I/O will be a lot more difficult to read in patients into the program to manipulate. With SQL you can just run queries on 
+    your active database.
+

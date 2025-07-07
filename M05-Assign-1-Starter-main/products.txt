@@ -1,0 +1,120 @@
+59.99 
+Wireless Bluetooth Headphones 
+P012
+5.580
+699.99 
+Smartphone 128GB 
+P028
+8.696
+899.99 
+Laptop 15-inch, 8GB RAM 
+P017
+5.871
+29.99 
+Electric Toothbrush 
+P025
+1.516
+499.99 
+4K Ultra HD TV 55-inch 
+P007
+3.244
+39.99 
+Portable Speaker 
+P021
+3.015
+249.99 
+Digital Camera 20MP 
+P009
+5.584
+399.99 
+Gaming Console 
+P019
+9.779
+104.99 
+Fitness Tracker 
+P015
+3.773
+209.99 
+Smartwatch 
+P002
+5.728
+89.99 
+Home Security Camera 
+P010
+6.423
+79.99 
+Air Fryer 
+P001
+5.900
+289.99 
+Robot Vacuum Cleaner 
+P023
+4.122
+99.99 
+Instant Pot 
+P005
+4.100
+149.99 
+Noise-Cancelling Headphones 
+P014
+2.644
+49.99 
+Electric Kettle 
+P027
+8.273
+24.99 
+Smart Light Bulb 
+P030
+3.502
+329.99 
+Tablet 10-inch, 64GB 
+P008
+0.248
+179.99 
+Espresso Machine 
+P018
+0.802
+349.99 
+Electric Scooter 
+P022
+0.259
+14.99 
+Digital Thermometer 
+P026
+6.478
+32.99 
+Wireless Charger 
+P016
+3.353
+129.99 
+Smart Home Hub 
+P013
+2.253
+62.99 
+Electric Shaver 
+P029
+2.541
+199.99 
+Air Purifier 
+P003
+8.979
+52.99 
+Bluetooth Keyboard 
+P004
+5.824
+26.99 
+Wireless Mouse 
+P006
+6.758
+94.99 
+External Hard Drive 1TB 
+P011
+2.711
+299.99 
+Gaming Monitor 27-inch 
+P020
+8.363
+159.99 
+Smart Door Lock 
+P024
+7.911

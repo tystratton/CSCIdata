@@ -1,0 +1,39 @@
+@startuml
+
+
+!theme plain
+skinparam class{
+	AttributeIconSize 0
+	AttributeFontSize 16
+}
+
+
+/' Objects '/
+
+class url {
+	+url(std::string urlString, std::string filename)
+	-filename : std::string
+	-urlString : std::string
+	+displayFile(int = -1) : void
+}
+
+
+
+
+
+/' Inheritance relationships '/
+
+
+
+
+/' Aggregation relationships '/
+
+
+
+
+
+/' Nested objects '/
+
+
+
+@enduml

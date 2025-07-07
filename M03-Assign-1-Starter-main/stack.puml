@@ -1,0 +1,55 @@
+@startuml
+!theme plain
+skinparam class{
+	AttributeIconSize 0
+	AttributeFontSize 16
+}
+
+
+
+
+/' Objects '/
+
+class stack <template<class t>> {
+	+stack(int)
+	+stack(const stack<t> &)
+	+~stack()
+	+isEmptyStack() : bool const
+	+isFullStack() : bool const
+	+{static} DEFAULT_STACK_SIZE : const static int
+	-count : int
+	-maxStackSize : int
+	+operator=(const stack<t> &) : stack<t>&
+	
+	+pop() : t
+	+top() : t const
+	-copyStack(const stack<t> &) : void
+	+initializeStack() : void
+	+push(const t &) : void
+}
+
+
+
+
+
+
+
+/' Inheritance relationships '/
+
+
+
+
+/' Aggregation relationships '/
+
+
+
+
+
+
+
+
+/' Nested objects '/
+
+
+
+@enduml
