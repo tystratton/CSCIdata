@@ -65,6 +65,14 @@
         "xmemory": "cpp",
         "xtr1common": "cpp",
         "xtree": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "queue": "cpp",
+        "condition_variable": "cpp",
+        "deque": "cpp",
+        "mutex": "cpp",
+        "random": "cpp",
+        "stack": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp"
     }
 }

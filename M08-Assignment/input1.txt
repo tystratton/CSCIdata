@@ -1,0 +1,8 @@
+Welcome to the blockchain message digest system!
+This is the first user message in our blockchain.
+Digital signatures ensure message authenticity.
+Blockchain technology provides immutable record keeping.
+Each block contains a cryptographic hash of the previous block.
+This creates a secure chain of data integrity.
+Tampering with any block will break the chain validation.
+The system uses timestamps as nonce values for uniqueness.

@@ -1,0 +1,15 @@
+1. Which hash table seems to find things faster? Do you notice a difference?
+I actually asked AI to implement chrono and timed each to see which hash table was faster with nums.txt.
+
+With Quadratic Probing I got - 0.0464477, and chaining separately was 0.19422.
+
+2. Which hash table was easier to implement?
+Separate chaining had simpler logic. You just hash the key and add to the end of the linked list.
+Plus the standard library list handles all the memory management.
+
+When I made quadratic it required state tracking, and edge cases could cause table overflow so I 
+had to handle that. 
+
+3. Do you think changing the probing technique could help the first hash tree?
+Quadratic probing is already 4x faster than chaining in this test so I'm assuming the improvement
+would be marginal. 

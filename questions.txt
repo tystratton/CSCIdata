@@ -1,0 +1,134 @@
+Schemas
+
+WideWorldImporters uses schemas for different purposes, such as storing data, defining how users can access the data, and providing objects for data warehouse development and integration.
+Data schemas
+
+These schemas contain the data. Many tables are needed by all other schemas and are located in the Application schema.
+Schema 	Description
+Application 	Application-wide users, contacts, and parameters. This schema also contains reference tables with data that is used by multiple schemas
+Purchasing 	Stock item purchases from suppliers and details about suppliers.
+Sales 	Stock item sales to retail customers, and details about customers and sales people.
+Warehouse 	Stock item inventory and transactions.
+Secure-access schemas
+
+These schemas are used for external applications that are not allowed to access the data tables directly. They contain views and stored procedures used by external applications.
+Schema 	Description
+Website 	All access to the database from the company website is through this schema.
+Reports 	All access to the database from Reporting Services reports is through this schema.
+PowerBI 	All access to the database from the Power BI dashboards via the Enterprise Gateway is through this schema.
+
+The Reports and PowerBI schemas are not used in the initial release of the sample database. However, all Reporting Services and Power BI samples built on top of this database are encouraged to use these schemas.
+Development schemas
+
+Special-purpose schemas
+Schema 	Description
+Integration 	Objects and procedures required for data warehouse integration (that is, migrating the data to the WideWorldImportersDW database).
+Sequences 	Holds sequences used by all tables in the application.
+Tables
+
+All tables in the database are in the data schemas.
+Application Schema
+
+Details of parameters and people (users and contacts), along with common reference tables (common to multiple other schemas).
+Table 	Description
+SystemParameters 	Contains system-wide configurable parameters.
+People 	Contains user names, contact information, for all who use the application, and for the people that the Wide World Importers deals with at customer organizations. This table includes staff, customers, suppliers, and any other contacts. For people who have been granted permission to use the system or website, the information includes login details.
+Cities 	There are many addresses stored in the system, for people, customer organization delivery addresses, pickup addresses at suppliers, etc. Whenever an address is stored, there is a reference to a city in this table. There is also a spatial location for each city.
+StateProvinces 	Cities are part of states or provinces. This table has details of those, including spatial data describing the boundaries each state or province.
+Countries 	States or Provinces are part of countries/regions. This table has details of those, including spatial data describing the boundaries of each country/region.
+DeliveryMethods 	Choices for delivering stock items (for example, truck/van, post, pickup, courier, etc.)
+PaymentMethods 	Choices for making payments (for example, cash, check, EFT, etc.)
+TransactionTypes 	Types of customer, supplier, or stock transactions (for example, invoice, credit note, etc.)
+Purchasing Schema
+
+Details of suppliers and of stock item purchases.
+Table 	Description
+Suppliers 	Main entity table for suppliers (organizations)
+SupplierCategories 	Categories for suppliers (for example, novelties, toys, clothing, packaging, etc.)
+SupplierTransactions 	All financial transactions that are supplier-related (invoices, payments)
+PurchaseOrders 	Details of supplier purchase orders
+PurchaseOrderLines 	Detail lines from supplier purchase orders
+
+ 
+Sales Schema
+
+Details of customers, salespeople, and of stock item sales.
+Table 	Description
+Customers 	Main entity tables for customers (organizations or individuals)
+CustomerCategories 	Categories for customers (for example, novelty stores, supermarkets, etc.)
+BuyingGroups 	Customer organizations can be part of groups that exert greater buying power
+CustomerTransactions 	All financial transactions that are customer-related (invoices, payments)
+SpecialDeals 	Special pricing. This can include fixed prices, discount in dollars or discount percent.
+Orders 	Detail of customer orders
+OrderLines 	Detail lines from customer orders
+Invoices 	Details of customer invoices
+InvoiceLines 	Detail lines from customer invoices
+Warehouse Schema
+
+Details of stock items, their holdings and transactions.
+Table 	Description
+StockItems 	Main entity table for stock items
+StockItemHoldings 	Non-temporal columns for stock items. These are frequently updated columns.
+StockGroups 	Groups for categorizing stock items (for example, novelties, toys, edible novelties, etc.)
+StockItemStockGroups 	Which stock items are in which stock groups (many to many)
+Colors 	Stock items can (optionally) have colors
+PackageTypes 	Ways that stock items can be packaged (for example, box, carton, pallet, kg, etc.
+StockItemTransactions 	Transactions covering all movements of all stock items (receipt, sale, write-off)
+VehicleTemperatures 	Regularly recorded temperatures of vehicle chillers
+ColdRoomTemperatures 	Regularly recorded temperatures of cold room chillers
+
+Use the information about the database to answer the following questions.
+    John is an employee working in HR for WWI. Which database schemas should John have access to in order to do his job? Write an SQL statement that gives John the access he needs.
+    Olive is a warehouse employee for WWI. Which database schemas should Olive have access to in order to do her job? Write an SQL statement that gives Olive the access she needs.
+    Rory is a salesperson for WWI. Which database schemas should Rory have access to in order to do her job? Write an SQL statement that gives Rory the access she needs.
+    For the three people above, are there any items (tables, views, or schemas) they should not have access to? Write an SQL statement that removes their access to those items.
+    Write the steps for a transaction that orders a new product for the warehouse. You do not need to write the entire SQL statement for each step.
+    Write the steps for a transaction that processes a customer order. You do not need to write the entire SQL statement for each step.
+
+-- Answers
+
+-- 1. John (HR)
+-- Grant John permissions to manage employee data in the Application schema
+GRANT SELECT, INSERT, UPDATE, DELETE ON SCHEMA :: Application TO John;
+
+-- 2. Olive (Warehouse)
+-- Grant Olive full access to the Warehouse schema
+GRANT SELECT, INSERT, UPDATE, DELETE ON SCHEMA :: Warehouse TO Olive;
+-- Grant Olive read-only access to the Purchasing and Sales schemas
+GRANT SELECT ON SCHEMA :: Purchasing TO Olive;
+GRANT SELECT ON SCHEMA :: Sales TO Olive;
+
+-- 3. Rory (Sales)
+-- Grant Rory permissions to manage data in the Sales schema
+GRANT SELECT, INSERT, UPDATE ON SCHEMA :: Sales TO Rory;
+-- Grant Rory read-only access to the Warehouse schema for checking stock
+GRANT SELECT ON SCHEMA :: Warehouse TO Rory;
+
+-- 4. Access Restrictions
+-- John (HR) should not have access to sales, purchasing, or warehouse data.
+REVOKE ALL ON SCHEMA :: Sales FROM John;
+REVOKE ALL ON SCHEMA :: Purchasing FROM John;
+REVOKE ALL ON SCHEMA :: Warehouse FROM John;
+-- Olive (Warehouse) should not be able to modify sales or purchasing data.
+REVOKE INSERT, UPDATE, DELETE ON SCHEMA :: Sales FROM Olive;
+REVOKE INSERT, UPDATE, DELETE ON SCHEMA :: Purchasing FROM Olive;
+-- Rory (Sales) should not be able to modify warehouse data or access purchasing data.
+REVOKE INSERT, UPDATE, DELETE ON SCHEMA :: Warehouse FROM Rory;
+REVOKE ALL ON SCHEMA :: Purchasing FROM Rory;
+
+-- 5. Transaction Steps: Ordering a New Product
+-- 1. Start Transaction: Begin a new database transaction.
+-- 2. Verify Supplier and Product: Confirm that the supplier exists in the Purchasing.Suppliers table and the product exists in the Warehouse.StockItems table.
+-- 3. Create Purchase Order: Insert a new record into the Purchasing.PurchaseOrders table for the supplier.
+-- 4. Add Order Lines: For each product being ordered, insert a corresponding record into the Purchasing.PurchaseOrderLines table, linking it to the new purchase order.
+-- 5. Commit Transaction: If all steps are successful, commit the transaction to save the changes.
+
+-- 6. Transaction Steps: Processing a Customer Order
+-- 1. Start Transaction: Begin a new database transaction.
+-- 2. Verify Customer and Products: Confirm the customer exists in Sales.Customers and check for sufficient stock for each item in the order using Warehouse.StockItemHoldings.
+-- 3. Create Order: Insert a new record into the Sales.Orders table.
+-- 4. Add Order Lines: For each product ordered, insert a record into Sales.OrderLines.
+-- 5. Update Inventory: For each product, update the quantity on hand in Warehouse.StockItemHoldings and record the movement in Warehouse.StockItemTransactions.
+-- 6. Create Invoice: Insert a new record into Sales.Invoices.
+-- 7. Add Invoice Lines: Insert records into Sales.InvoiceLines corresponding to each item in the order.
+-- 8. Commit Transaction: If all steps are successful, commit the transaction.
